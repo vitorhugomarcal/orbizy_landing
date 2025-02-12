@@ -6,6 +6,7 @@ import { Button } from "./ui/button"
 
 import logo from "@/assets/logo.png"
 import Image from "next/image"
+import Link from "next/link"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -46,8 +47,9 @@ export function Header() {
             className={`${
               isScrolled ? "text-foreground" : "text-white"
             } hover:bg-slate-100/10`}
+            asChild
           >
-            Acessar plataforma
+            <Link href="https://my.orbizy.app">Acessar plataforma</Link>
           </Button>
           <Button
             className={`${

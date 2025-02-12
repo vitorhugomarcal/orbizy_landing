@@ -7,6 +7,7 @@ import Playstore from "@/assets/playstore.png"
 import Tiktok from "@/assets/tiktok.png"
 import { Globe } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "./ui/button"
 
 export function Footer() {
@@ -21,9 +22,12 @@ export function Footer() {
             <Button
               variant="secondary"
               className="w-full bg-white  hover:bg-orange-100 transition-colors"
+              asChild
             >
-              <Globe className="w-5 h-5 mr-2" />
-              Acessar plataforma
+              <Link href="https://my.orbizy.app">
+                <Globe className="w-5 h-5 mr-2" />
+                Acessar plataforma
+              </Link>
             </Button>
             <Button
               variant="secondary"
