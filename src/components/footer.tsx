@@ -60,18 +60,30 @@ export function Footer() {
 
           {/* Redes Sociais */}
           <div className="flex space-x-6 mb-8">
-            <a href="#" className="text-white group">
+            <Link
+              href="https://facebook.com/orbizyapp"
+              className="text-white group"
+            >
               <Facebook className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
-            </a>
-            <a href="#" className="text-white group">
+            </Link>
+            <Link
+              href="https://instagram.com/orbizyapp"
+              className="text-white group"
+            >
               <Instagram className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
-            </a>
-            <a href="#" className="text-white group">
+            </Link>
+            <Link
+              href="https://tiktok.com/@orbizyapp"
+              className="text-white group"
+            >
               <Tiktok className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
-            </a>
-            <a href="#" className="text-white group">
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/orbizy"
+              className="text-white group"
+            >
               <Linkedin className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
-            </a>
+            </Link>
           </div>
         </div>
 
