@@ -5,6 +5,7 @@ import Linkedin from "@/assets/linkedin"
 import logo from "@/assets/logo.png"
 import Playstore from "@/assets/playstore"
 import Tiktok from "@/assets/tiktok"
+import { CurrentYear } from "@/utils/currentYear"
 import { Globe } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -76,19 +77,24 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-white/20 text-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Orbizy. Todos os direitos
-            reservados.
+            &copy; <CurrentYear /> Orbizy. Todos os direitos reservados.
           </p>
           <div className="mt-4 space-x-4">
-            <a href="#" className="hover:underline">
+            <Link
+              href="/termos-de-uso-e-privacidade"
+              className="hover:underline"
+            >
               Termos de Uso
-            </a>
-            <a href="#" className="hover:underline">
+            </Link>
+            <Link
+              href="/termos-de-uso-e-privacidade"
+              className="hover:underline"
+            >
               Política de Privacidade
-            </a>
-            <a href="#" className="hover:underline">
+            </Link>
+            {/* <a href="#" className="hover:underline">
               Contato
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

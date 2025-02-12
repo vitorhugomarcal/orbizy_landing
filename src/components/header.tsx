@@ -35,11 +35,13 @@ export function Header() {
     >
       <div className="max-w-[1120px] mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
-          <Image
-            src={logo}
-            alt="Logo Orbrizy Innovate and Grow"
-            className="h-14 w-auto hover:scale-110 transition-all"
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt="Logo Orbrizy Innovate and Grow"
+              className="h-14 w-auto hover:scale-110 transition-all"
+            />
+          </Link>
         </div>
         <nav className="hidden sm:flex space-x-4">
           <Button
@@ -49,7 +51,7 @@ export function Header() {
             } hover:bg-slate-100/10`}
             asChild
           >
-            <Link href="https://my.orbizy.app">Acessar plataforma</Link>
+            <Link href="https://my.orbizy.app">my.Orbizy</Link>
           </Button>
           <Button
             className={`${

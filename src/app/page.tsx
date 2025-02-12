@@ -1,7 +1,7 @@
 import heroBG from "@/assets/heroBG.jpg"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
-import { Hero } from "@/components/hero"
+import { HeroHome } from "@/components/heroHome"
 import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import Image from "next/image"
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="bg-slate-100">
       <Header />
-      <Hero />
+      <HeroHome />
 
       <div className="flex flex-1 px-8 -mt-8">
         <Image src={heroBG} alt="" className="rounded-3xl" />
