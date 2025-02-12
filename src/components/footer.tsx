@@ -1,10 +1,10 @@
-import Apple from "@/assets/apple.png"
-import Facebook from "@/assets/facebook.png"
-import Instagram from "@/assets/instagram.png"
-import Linkedin from "@/assets/linkedin.png"
+import Apple from "@/assets/apple"
+import Facebook from "@/assets/facebook"
+import Instagram from "@/assets/instagram"
+import Linkedin from "@/assets/linkedin"
 import logo from "@/assets/logo.png"
-import Playstore from "@/assets/playstore.png"
-import Tiktok from "@/assets/tiktok.png"
+import Playstore from "@/assets/playstore"
+import Tiktok from "@/assets/tiktok"
 import { Globe } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -12,7 +12,7 @@ import { Button } from "./ui/button"
 
 export function Footer() {
   return (
-    <footer className="w-full bg-gradient-to-r from-pink-600 to-orange-600 text-white py-12">
+    <footer className="w-full bg-gradient-to-r from-purple-500 to-orange-500 text-white py-12">
       <div className="max-w-[1120px] mx-auto px-4">
         <div className="flex flex-col items-center text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-6">
@@ -21,26 +21,27 @@ export function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-2xl mb-12">
             <Button
               variant="secondary"
-              className="w-full bg-white  hover:bg-orange-100 transition-colors"
+              className="w-full bg-white  hover:bg-orange-500 hover:text-white transition-colors"
               asChild
             >
               <Link href="https://my.orbizy.app">
                 <Globe className="w-5 h-5 mr-2" />
-                Acessar plataforma
+                PC
               </Link>
             </Button>
             <Button
               variant="secondary"
-              className="w-full bg-white hover:bg-orange-100 transition-colors"
+              className="w-full bg-white hover:bg-orange-500 hover:text-white transition-colors group"
             >
-              <Image src={Playstore} alt="Playstore" className="w-5 h-5 mr-2" />
+              <Playstore className="w-5 h-5 mr-2 group-hover:text-white transition-colors" />
               Google Play
             </Button>
+
             <Button
               variant="secondary"
-              className="w-full bg-white hover:bg-orange-100 transition-colors"
+              className="w-full bg-white hover:bg-orange-500 hover:text-white transition-colors group"
             >
-              <Image src={Apple} alt="Apple" className="w-5 h-5 mr-2" />
+              <Apple className="w-5 h-5 mr-2 group-hover:text-white transition-colors" />
               Apple Store
             </Button>
           </div>
@@ -58,23 +59,26 @@ export function Footer() {
 
           {/* Redes Sociais */}
           <div className="flex space-x-6 mb-8">
-            <a href="#" className="hover:text-orange-200 transition-colors">
-              <Image src={Facebook} alt="Facebook" className="w-6 h-6" />
+            <a href="#" className="text-white group">
+              <Facebook className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
             </a>
-            <a href="#" className="hover:text-orange-200 transition-colors">
-              <Image src={Instagram} alt="Instagram" className="w-6 h-6" />
+            <a href="#" className="text-white group">
+              <Instagram className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
             </a>
-            <a href="#" className="hover:text-orange-200 transition-colors">
-              <Image src={Tiktok} alt="TikTok" className="w-6 h-6" />
+            <a href="#" className="text-white group">
+              <Tiktok className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
             </a>
-            <a href="#" className="hover:text-orange-200 transition-colors">
-              <Image src={Linkedin} alt="LinkedIn" className="w-6 h-6" />
+            <a href="#" className="text-white group">
+              <Linkedin className="group-text-white group-hover:text-black h-5 w-5 transition-colors" />
             </a>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/20 text-center text-sm">
-          <p>&copy; 2025 Orbizy. Todos os direitos reservados.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Orbizy. Todos os direitos
+            reservados.
+          </p>
           <div className="mt-4 space-x-4">
             <a href="#" className="hover:underline">
               Termos de Uso

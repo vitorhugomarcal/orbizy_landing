@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 export function Hero() {
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-pink-600 to-orange-600 flex items-center justify-center">
+    <div className="w-full h-screen bg-gradient-to-r from-purple-500 to-orange-500 flex items-center justify-center">
       <div className="w-[1024px] text-center px-4 space-y-4">
         <h1 className="sm:text-4xl text-2xl font-bold text-white">
           Simplifique a Gestão do Seu Negócio com a Orbizy
