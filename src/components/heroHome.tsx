@@ -12,7 +12,7 @@ import { Card } from "./ui/card"
 
 export function HeroHome() {
   return (
-    <div className="relative w-full min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-orange-500 flex items-center justify-center overflow-hidden pt-20">
+    <div className="relative w-full min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-orange-500 flex items-center justify-center overflow-hidden pt-20 mb-2">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>

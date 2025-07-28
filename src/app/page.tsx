@@ -152,31 +152,29 @@ const plans = [
     highlighted: false,
   },
   {
-    name: "Profissional",
-    price: "R$ 29,90",
+    name: "Pro",
+    price: "R$ 24,90",
     period: "/mês",
     description: "Para negócios em crescimento",
     features: [
-      "Clientes ilimitados",
-      "Documentos ilimitados",
-      "Relatórios avançados",
-      "Integração WhatsApp",
+      "Acesso ao my.Orbizy web",
+      "Adicione sua logomarca",
+      "Personalização dos documentos",
       "Backup automático",
       "Suporte prioritário",
     ],
     highlighted: true,
   },
   {
-    name: "Empresarial",
+    name: "Team",
     price: "R$ 49,90",
     period: "/mês",
     description: "Para empresas estabelecidas",
     features: [
-      "Tudo do Profissional",
-      "Múltiplos usuários",
-      "API personalizada",
-      "Treinamento dedicado",
       "Gerente de conta",
+      "Múltiplos usuários",
+      "Teste as novidades primeiro",
+      "API personalizada",
     ],
     highlighted: false,
   },
@@ -318,7 +316,7 @@ export default function Home() {
       <HeroHome />
 
       {/* Hero Image Section */}
-      <section className="flex flex-1 px-8 -mt-8">
+      <section className=" flex flex-1 -mt-8">
         <Image
           src={heroBG}
           alt="Interface do aplicativo Orbizy mostrando dashboard de gestão empresarial com gráficos financeiros e lista de clientes"
@@ -535,7 +533,7 @@ export default function Home() {
       </section>
 
       {/* Integrations Section */}
-      <section className="py-16 px-8 bg-slate-50">
+      {/* <section className="py-16 px-8 bg-slate-50">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge variant="secondary" className="mb-4">
@@ -563,7 +561,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Pricing Section */}
       <section className="py-16 px-8 bg-white">
