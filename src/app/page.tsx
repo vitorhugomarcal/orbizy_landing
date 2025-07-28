@@ -27,7 +27,6 @@ import {
   Download,
   FileText,
   Globe,
-  Laptop,
   MessageSquare,
   Package,
   PieChart,
@@ -757,14 +756,6 @@ export default function Home() {
             >
               <PlayCircle className="mr-2 h-5 w-5" />
               Teste Grátis por 30 Dias
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="font-semibold text-lg px-8 border-white text-white hover:bg-white hover:text-primary"
-            >
-              <Laptop className="mr-2 h-5 w-5" />
-              Agendar Demonstração
             </Button>
           </div>
 
