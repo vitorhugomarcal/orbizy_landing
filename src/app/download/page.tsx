@@ -34,7 +34,7 @@ export default function DownloadPage() {
     }
   }, [])
 
-  const appStoreUrl = "https://apps.apple.com/app/orbizy"
+  const appStoreUrl = "https://apps.apple.com/br/app/orbizy/id6670499792"
   const playStoreUrl =
     "https://play.google.com/store/apps/details?id=com.orbizy.app"
   const webAppUrl = "https://my.orbizy.app"
