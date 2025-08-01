@@ -231,7 +231,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center text-sm text-white/80">
                   <Mail className="w-4 h-4 mr-2" />
-                  <span>contato@orbizy.com</span>
+                  <span>vhmarcal@orbizy.app</span>
                 </div>
                 <div className="flex items-center text-sm text-white/80">
                   <Clock className="w-4 h-4 mr-2" />
@@ -359,7 +359,7 @@ export function Footer() {
 
           <div className="text-center text-xs text-white/60">
             <p>
-              Desenvolvido com ❤️ no Brasil • CNPJ: XX.XXX.XXX/XXXX-XX •
+              Desenvolvido com ❤️ no Brasil • VHMarcal •
               <Link href="/sitemap" className="hover:text-white/80 ml-1">
                 Sitemap
               </Link>

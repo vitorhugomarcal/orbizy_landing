@@ -6,8 +6,8 @@ import {
   Users,
   Zap,
 } from "lucide-react"
+import Link from "next/link"
 import { Badge } from "./ui/badge"
-import { Button } from "./ui/button"
 import { Card } from "./ui/card"
 
 export function HeroHome() {
@@ -70,16 +70,24 @@ export function HeroHome() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button
+              {/* <Button
                 size="lg"
                 className="bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
               >
                 <Zap className="w-5 h-5 mr-2" />
                 Começar Grátis Agora
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
+              </Button> */}
+              <Link
+                href={"/download"}
+                className="bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
+              >
+                <Zap className="w-5 h-5 mr-2" />
+                Começar Grátis Agora
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
+              href={"/download"}{" "}
             </div>
-
             {/* Social Proof */}
             <div className="flex items-center justify-center lg:justify-start space-x-6 pt-6 text-white/80">
               <div className="text-center">
