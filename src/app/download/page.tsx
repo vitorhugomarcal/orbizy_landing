@@ -182,9 +182,9 @@ export default function DownloadPage() {
                 </Button>
 
                 <div className="flex items-center justify-center space-x-4 text-sm text-muted-foreground">
-                  <span>iOS 12.0+</span>
+                  <span>iOS 15.1+</span>
                   <span>•</span>
-                  <span>45 MB</span>
+                  <span>59 MB</span>
                 </div>
               </div>
             </Card>
