@@ -80,13 +80,12 @@ export function HeroHome() {
               </Button> */}
               <Link
                 href={"/download"}
-                className="bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
+                className="flex flex-row gap-4 rounded-2xl items-center bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
               >
                 <Zap className="w-5 h-5 mr-2" />
                 Começar Grátis Agora
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
-              href={"/download"}{" "}
             </div>
             {/* Social Proof */}
             <div className="flex items-center justify-center lg:justify-start space-x-6 pt-6 text-white/80">
