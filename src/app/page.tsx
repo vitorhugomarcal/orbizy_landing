@@ -40,6 +40,7 @@ import {
 } from "lucide-react"
 import { Metadata } from "next"
 import Image from "next/image"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title:
@@ -608,14 +609,18 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <Button
-                    className="w-full"
-                    variant={plan.highlighted ? "default" : "outline"}
+                  <Link
+                    className={
+                      plan.highlighted
+                        ? "bg-orange-400 hover:bg-orange-400/80 h-12  justify-center  rounded-2xl text-white/80 hover:text-white font-semibold transition-colors flex items-center group"
+                        : "flex border border-orange-400 hover:border-orange-400/80 w-full h-12 rounded-2xl font-medium justify-center items-center"
+                    }
+                    href={"/download"}
                   >
                     {plan.price === "R$ 0"
                       ? "Começar Grátis"
                       : "Escolher Plano"}
-                  </Button>
+                  </Link>
                 </CardContent>
               </Card>
             ))}
