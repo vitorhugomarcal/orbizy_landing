@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "Orbizy Invoice - Gestão de Orçamentos e Faturas | App de Gestão",
+    "description": "Transforme seu negócio com a Orbizy! Gestão de orçamentos profissional, faturamento automatizado e controle total para pequenos negócios. Teste grátis por 30 dias!",
+    "keywords": "gestão de orçamentos, faturamento, orçamentos profissionais, faturas, gestão empresarial, pequenos negócios, controle financeiro, orbizy"
+  },
+  "hero": {
+    "badge": "Avaliação 4.9/5 • +5.000 empresas",
+    "title_part1": "Transforme sua",
+    "title_highlight": "gestão de orçamentos",
+    "subtitle": "Crie orçamentos profissionais em segundos, envie por WhatsApp e gere faturas automaticamente. Aumente sua produtividade em 60% e profissionalize sua administração.",
+    "benefits": [
+      "Controle financeiro completo",
+      "Documentos profissionais",
+      "Gestão de clientes integrada",
+      "Relatórios em tempo real"
+    ],
+    "cta_primary": "Começar Grátis Agora",
+    "cta_secondary": "Ver Planos",
+    "stats": {
+      "trial": "30 dias de teste",
+      "setup": "0% taxa de setup",
+      "support": "Suporte 24/7"
+    }
+  },
+  "features": {
+    "title": "Tudo que seu negócio precisa",
+    "budget": {
+      "title": "Emissão de Orçamentos",
+      "description": "Crie orçamentos profissionais com seu logo e envie diretamente para o cliente."
+    },
+    "invoice": {
+      "title": "Faturamento Automático",
+      "description": "Transforme orçamentos aprovados em faturas com um único clique."
+    }
+  },
+  "common": {
+    "free_trial": "Sem cartão de crédito • Cancelamento gratuito • Suporte humanizado",
+    "start_now": "Começar Agora",
+    "discover_more": "Descubra mais"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "seo": {
+    "title": "Orbizy Invoice - Professional Quotes & Invoice Management | Management App",
+    "description": "Transform your business with Orbizy! Professional budget management, automated invoicing, and total control for small businesses. Free trial for 30 days!",
+    "keywords": "budget management, invoicing, professional quotes, invoices, business management, small businesses, financial control, orbizy"
+  },
+  "hero": {
+    "badge": "Rating 4.9/5 • over 5,000 businesses",
+    "title_part1": "Transform your",
+    "title_highlight": "quote management",
+    "subtitle": "Create professional quotes in seconds, send via WhatsApp, and generate invoices automatically. Increase your productivity by 60% and professionalize your administration.",
+    "benefits": [
+      "Complete financial control",
+      "Professional documents",
+      "Integrated client management",
+      "Real-time reports"
+    ],
+    "cta_primary": "Start Free Now",
+    "cta_secondary": "View Plans",
+    "stats": {
+      "trial": "30-day trial",
+      "setup": "0% setup fee",
+      "support": "24/7 Support"
+    }
+  },
+  "features": {
+    "title": "Everything your business needs",
+    "budget": {
+      "title": "Quick Quoting",
+      "description": "Create professional quotes with your logo and send them directly to the client."
+    },
+    "invoice": {
+      "title": "Automated Invoicing",
+      "description": "Turn approved quotes into invoices with a single click."
+    }
+  },
+  "common": {
+    "free_trial": "No credit card needed • Free cancellation • Human support",
+    "start_now": "Start Now",
+    "discover_more": "Discover more"
+  }
+}

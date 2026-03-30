@@ -10,7 +10,11 @@ import Link from "next/link"
 import { Badge } from "./ui/badge"
 import { Card } from "./ui/card"
 
-export function HeroHome() {
+interface HeroHomeProps {
+  dict: any
+}
+
+export function HeroHome({ dict }: HeroHomeProps) {
   return (
     <div className="relative w-full min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-orange-500 flex items-center justify-center overflow-hidden pt-20 mb-2">
       {/* Background Effects */}
@@ -30,37 +34,27 @@ export function HeroHome() {
                 className="bg-white/20 text-white border-white/30 backdrop-blur-sm"
               >
                 <Star className="w-4 h-4 mr-1 fill-yellow-400 text-yellow-400" />
-                Avaliação 4.9/5 • +5.000 empresas
+                {dict.hero.badge}
               </Badge>
             </div>
 
             {/* Main Headlines */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Transforme seu
+                {dict.hero.title_part1}
                 <span className="block bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
-                  negócio em dias
+                  {dict.hero.title_highlight}
                 </span>
               </h1>
 
               <h2 className="text-xl md:text-2xl font-light text-white/90 max-w-2xl">
-                A plataforma completa de gestão empresarial que
-                <strong className="font-semibold">
-                  {" "}
-                  aumenta sua produtividade em 60%
-                </strong>{" "}
-                e profissionaliza sua administração
+                {dict.hero.subtitle}
               </h2>
             </div>
 
             {/* Key Benefits */}
             <div className="grid sm:grid-cols-2 gap-3 my-6">
-              {[
-                "Controle financeiro completo",
-                "Documentos profissionais",
-                "Gestão de clientes integrada",
-                "Relatórios em tempo real",
-              ].map((benefit, index) => (
+              {dict.hero.benefits.map((benefit: string, index: number) => (
                 <div key={index} className="flex items-center text-white/90">
                   <CheckCircle className="w-5 h-5 mr-2 text-green-300" />
                   <span className="text-sm font-medium">{benefit}</span>
@@ -70,20 +64,12 @@ export function HeroHome() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              {/* <Button
-                size="lg"
-                className="bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
-              >
-                <Zap className="w-5 h-5 mr-2" />
-                Começar Grátis Agora
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button> */}
               <Link
                 href={"/download"}
                 className="flex flex-row gap-4 rounded-2xl items-center bg-white text-purple-600 hover:bg-white/90 font-semibold text-lg px-8 py-4 shadow-xl"
               >
                 <Zap className="w-5 h-5 mr-2" />
-                Começar Grátis Agora
+                {dict.hero.cta_primary}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </div>
@@ -91,17 +77,17 @@ export function HeroHome() {
             <div className="flex items-center justify-center lg:justify-start space-x-6 pt-6 text-white/80">
               <div className="text-center">
                 <div className="text-2xl font-bold">30 dias</div>
-                <div className="text-sm">Teste grátis</div>
+                <div className="text-sm">{dict.hero.stats.trial}</div>
               </div>
               <div className="w-px h-12 bg-white/30"></div>
               <div className="text-center">
                 <div className="text-2xl font-bold">0%</div>
-                <div className="text-sm">Taxa de setup</div>
+                <div className="text-sm">{dict.hero.stats.setup}</div>
               </div>
               <div className="w-px h-12 bg-white/30"></div>
               <div className="text-center">
                 <div className="text-2xl font-bold">24/7</div>
-                <div className="text-sm">Suporte</div>
+                <div className="text-sm">{dict.hero.stats.support}</div>
               </div>
             </div>
           </div>
@@ -127,27 +113,13 @@ export function HeroHome() {
                 <div className="text-sm text-white/80">Mais produtividade</div>
               </Card>
             </div>
-
-            <Card className="p-6 bg-white/10 backdrop-blur-sm border-white/20 text-white">
-              <div className="flex items-center mb-3">
-                <Star className="w-6 h-6 mr-2 text-yellow-300" />
-                <span className="font-semibold">Depoimento</span>
-              </div>
-              <blockquote className="text-sm italic mb-2">
-                "A Orbizy revolucionou meu negócio. Agora tenho controle total e
-                meu faturamento aumentou 40%!"
-              </blockquote>
-              <cite className="text-xs text-white/70">
-                - Maria Silva, Salão Elegance
-              </cite>
-            </Card>
           </div>
         </div>
       </div>
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white/80">
-        <span className="text-xs mb-2 font-medium">Descubra mais</span>
+        <span className="text-xs mb-2 font-medium">{dict.common.discover_more}</span>
         <ChevronsDown className="w-6 h-6 animate-bounce" />
       </div>
 
