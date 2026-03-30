@@ -1,42 +1,792 @@
 {
   "seo": {
-    "title": "Orbizy Invoice - Professional Quotes & Invoice Management | Management App",
-    "description": "Transform your business with Orbizy! Professional budget management, automated invoicing, and total control for small businesses. Free trial for 30 days!",
-    "keywords": "budget management, invoicing, professional quotes, invoices, business management, small businesses, financial control, orbizy"
+    "title": "Orbizy - Complete Business Management for Small Businesses | Management App",
+    "description": "Transform your business with Orbizy! Complete management: financial control, customers, inventory, scheduling, document issuance. Try it free for 30 days!",
+    "keywords": "business management, small business, financial control, customer management, invoice issuance, quotes, management app, small business ERP, management system, inventory control, online agenda, digital receipts"
+  },
+  "header": {
+    "cta": "Free Trial"
   },
   "hero": {
-    "badge": "Rating 4.9/5 • over 5,000 businesses",
+    "badge": "Rating 4.9/5 • +5,000 companies",
     "title_part1": "Transform your",
-    "title_highlight": "quote management",
-    "subtitle": "Create professional quotes in seconds, send via WhatsApp, and generate invoices automatically. Increase your productivity by 60% and professionalize your administration.",
+    "title_highlight": "business management",
+    "subtitle": "More than 5,000 entrepreneurs have already transformed their businesses with Orbizy. Discover the simplicity of a modern app, designed to make your business management intuitive and efficient.",
     "benefits": [
-      "Complete financial control",
+      "Full financial control",
       "Professional documents",
-      "Integrated client management",
+      "Integrated customer management",
       "Real-time reports"
     ],
-    "cta_primary": "Start Free Now",
-    "cta_secondary": "View Plans",
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "See Plans",
     "stats": {
-      "trial": "30-day trial",
+      "trial": "30 days trial",
       "setup": "0% setup fee",
       "support": "24/7 Support"
-    }
+    },
+    "value_prop": "Discover the simplicity of a modern app, designed to make your business management intuitive and efficient."
+  },
+  "stats": [
+    { "number": "5,000+", "label": "Active Companies" },
+    { "number": "98%", "label": "Satisfaction" },
+    { "number": "150K+", "label": "Documents Issued" },
+    { "number": "24/7", "label": "Support" }
+  ],
+  "segments": {
+    "badge": "Industries Served",
+    "title": "Perfect for your type of business",
+    "description": "Orbizy serves various segments with personalized solutions for each need",
+    "items": [
+      { "name": "Beauty Salons", "count": "1,200+" },
+      { "name": "Technical Assistance", "count": "800+" },
+      { "name": "Consulting", "count": "600+" },
+      { "name": "Retail", "count": "900+" },
+      { "name": "Photography", "count": "400+" },
+      { "name": "Services", "count": "1,100+" }
+    ]
   },
   "features": {
-    "title": "Everything your business needs",
-    "budget": {
-      "title": "Quick Quoting",
-      "description": "Create professional quotes with your logo and send them directly to the client."
+    "badge": "Features",
+    "title": "Everything your business needs in one place",
+    "description": "Complete business management tools, specially developed for entrepreneurs who want to grow organized.",
+    "tabs": {
+      "overview": "Overview",
+      "financial": "Financial",
+      "documents": "Documents"
     },
-    "invoice": {
-      "title": "Automated Invoicing",
-      "description": "Turn approved quotes into invoices with a single click."
-    }
+    "items": [
+      {
+        "title": "Customer Management",
+        "description": "Full catalog with order history and personalized relationship",
+        "details": "Keep all your customer data organized, with full purchase history and preferences."
+      },
+      {
+        "title": "Financial Control",
+        "description": "Monitor revenue, expenses and cash flow with detailed reports",
+        "details": "Intuitive dashboards with real-time graphs to track your business's financial health."
+      },
+      {
+        "title": "Professional Documents",
+        "description": "Issue budgets, contracts, invoices and receipts with professional layout",
+        "details": "Customizable templates with your brand, automatically sent by email or WhatsApp."
+      },
+      {
+        "title": "Smart Scheduling",
+        "description": "Organize appointments and services with integrated agenda",
+        "details": "Online scheduling system with automatic confirmations and SMS reminders."
+      },
+      {
+        "title": "Inventory Control",
+        "description": "Manage products and services with automatic alerts",
+        "details": "Complete input and output control, with low stock alerts and turnover reports."
+      },
+      {
+        "title": "Installment Management",
+        "description": "Control amounts to receive with automatic notifications",
+        "details": "Track pending payments, send automatic reminders and organize your cash flow."
+      }
+    ],
+    "financial_details": [
+      "Real-time cash flow",
+      "Profitability analysis",
+      "Financial projections",
+      "Monthly comparisons"
+    ],
+    "receivables_details": [
+      "Installment management",
+      "Automatic reminders",
+      "Multiple payment methods",
+      "Bank reconciliation"
+    ],
+    "doc_types": [
+      { "title": "Budgets", "description": "Professional templates with digital approval" },
+      { "title": "Contracts", "description": "Validated and customizable legal models" },
+      { "title": "Receipts", "description": "Automatic issuance with fiscal validity" }
+    ]
+  },
+  "pricing": {
+    "badge": "Plans",
+    "title": "Choose the ideal plan for your business",
+    "description": "Start for free and evolve as you grow",
+    "popular": "Most Popular",
+    "period": "/month",
+    "cta_free": "Start Free",
+    "cta_paid": "Choose Plan",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$ 0",
+        "description": "Perfect to start",
+        "features": [
+          "Up to 50 customers",
+          "10 documents/month",
+          "Basic reports",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$ 5.00",
+        "description": "For growing businesses",
+        "features": [
+          "Access to my.Orbizy web",
+          "Add your logo",
+          "Document personalization",
+          "Automatic backup",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Team",
+        "price": "$ 10.00",
+        "description": "For established companies",
+        "features": [
+          "Account manager",
+          "Multiple users",
+          "Test new features first",
+          "Custom API"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Real success stories",
+    "description": "See how Orbizy transformed businesses like yours",
+    "items": [
+      {
+        "name": "Maria Silva",
+        "business": "Elegance Beauty Salon",
+        "content": "Orbizy completely transformed my salon. Now I have total control of appointments and revenue increased by 40% in 6 months!",
+        "results": "+40% revenue"
+      },
+      {
+        "name": "João Santos",
+        "business": "JS Consulting",
+        "content": "The financial reports are incredible! I can make decisions based on real data and my clients were impressed with the professional budgets.",
+        "results": "98% budget approval"
+      },
+      {
+        "name": "Ana Costa",
+        "business": "TechRepair Assistance",
+        "content": "Inventory control saved me a lot of money. I no longer have dead stock and automatic alerts are perfect!",
+        "results": "-30% inventory costs"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Clear your doubts about Orbizy",
+    "items": [
+      {
+        "question": "How does the free trial work?",
+        "answer": "You have 30 days to test all Orbizy features without commitment. No credit card is required to start."
+      },
+      {
+        "question": "Can I cancel at any time?",
+        "answer": "Yes! You can cancel your subscription at any time without fees or penalties. Your data remains safe for 90 days after cancellation."
+      },
+      {
+        "question": "Does Orbizy work offline?",
+        "answer": "Yes! You can work offline and data is automatically synchronized when the connection is re-established."
+      },
+      {
+        "question": "How is the migration of my data done?",
+        "answer": "Our team offers full support for migration. You can easily import data from spreadsheets or other systems."
+      },
+      {
+        "question": "Is there a limit on documents issued?",
+        "answer": "On the free plan there are 10 documents/month. On paid plans there are no limits for issuing budgets, contracts and receipts."
+      },
+      {
+        "question": "Can I customize documents with my brand?",
+        "answer": "Yes! You can add your logo, brand colors and personalized information to all documents."
+      }
+    ]
+  },
+  "trust": {
+    "title": "Security and Reliability",
+    "items": [
+      { "title": "Protected Data", "description": "256-bit SSL encryption and automatic cloud backup" },
+      { "title": "Certifications", "description": "LGPD compliance and security certifications" },
+      { "title": "99.9% Uptime", "description": "Guaranteed availability with robust infrastructure" }
+    ]
+  },
+  "final_cta": {
+    "title": "Transform your business today!",
+    "subtitle": "Join more than 5,000 entrepreneurs who have already revolutionized their management with Orbizy",
+    "cta": "Start Free Trial Now",
+    "badge1": "No credit card",
+    "badge2": "Free cancellation",
+    "badge3": "Expert support"
   },
   "common": {
-    "free_trial": "No credit card needed • Free cancellation • Human support",
-    "start_now": "Start Now",
-    "discover_more": "Discover more"
+    "free_trial": "30-Day Free Trial",
+    "no_credit_card": "No credit card",
+    "cancel_anytime": "Free cancellation",
+    "discover_more": "Discover more",
+    "start_now": "Start Now"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Stay up to date with news",
+      "subtitle": "Receive exclusive business management tips and be the first to know about new features",
+      "placeholder": "Your best e-mail",
+      "button": "Subscribe",
+      "disclaimer": "We don't send spam. Cancel whenever you want."
+    },
+    "apps": {
+      "badge": "Multiplatform",
+      "title": "Manage your business from anywhere",
+      "description": "Access Orbizy on the device you prefer",
+      "web": "Access Web",
+      "playstore": "Google Play",
+      "appstore": "App Store"
+    },
+    "company": {
+      "description": "The complete business management platform that transforms small businesses into organized and profitable companies.",
+      "trust": [
+        "Data protected with SSL",
+        "LGPD Certified",
+        "+5,000 active companies"
+      ]
+    },
+    "navigation": {
+      "title": "Navigation",
+      "links": [
+        { "name": "Features", "href": "#funcionalidades" },
+        { "name": "Plans and Pricing", "href": "#planos" },
+        { "name": "Testimonials", "href": "#depoimentos" },
+        { "name": "FAQ", "href": "#faq" }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "links": [
+        { "name": "Help Center", "href": "/ajuda" },
+        { "name": "Tutorials", "href": "/tutoriais" },
+        { "name": "Contact", "href": "/contato" },
+        { "name": "System Status", "href": "/status" }
+      ],
+      "hours": "Mon-Fri: 8am to 6pm"
+    },
+    "segments": {
+      "title": "Segments",
+      "items": [
+        "Beauty Salons",
+        "Consulting",
+        "Technical Assistance",
+        "Retail",
+        "Services",
+        "Photography"
+      ]
+    },
+    "social": {
+      "title": "Follow us on social media",
+      "rating": "4.9/5 • 500+ reviews"
+    },
+    "bottom": {
+      "rights": "All rights reserved.",
+      "legal": [
+        { "name": "Terms of Use", "href": "/terms-of-use-e-privacidade" },
+        { "name": "Privacy Policy", "href": "/terms-of-use-e-privacidade" },
+        { "name": "LGPD", "href": "/lgpd" },
+        { "name": "Cookies", "href": "/cookies" }
+      ],
+      "developed": "Developed with ❤️ in Brazil"
+    },
+    "satisfaction": "Customer satisfaction"
+  },
+  "download": {
+    "hero": {
+      "badge": "Mobile App Available",
+      "plan_selected": "Plan {plan} selected!",
+      "activation_hint": "Download the app to activate your account and start using",
+      "title": "Download the Orbizy App",
+      "subtitle": "Manage your business from anywhere with our complete app. Available for iOS and Android."
+    },
+    "platforms": {
+      "title": "Choose Your Platform",
+      "subtitle": "Scan the QR Code or click the button to download",
+      "ios": "For iPhone and iPad",
+      "android": "For Android smartphones",
+      "cta_ios": "Download on App Store",
+      "cta_android": "Download on Google Play"
+    },
+    "features": {
+      "title": "Everything in the Palm of Your Hand",
+      "subtitle": "The Orbizy app has all the essential features",
+      "items": [
+        { "title": "Schedules", "description": "Manage your schedule anywhere" },
+        { "title": "Clients", "description": "Full access to client base" },
+        { "title": "Quotes", "description": "Create and send quotes instantly" },
+        { "title": "Reports", "description": "Track your performance" }
+      ]
+    },
+    "benefits": {
+      "title": "Exclusive Advantages",
+      "subtitle": "Why use the mobile version in your daily life",
+      "items": [
+        "Works offline - synchronizes when connected",
+        "Push notifications so you don't miss anything",
+        "Optimized mobile interface",
+        "Quick access to main features",
+        "Automatic synchronization with the web",
+        "Secure cloud backup"
+      ]
+    },
+    "cta": {
+      "title": "Still Have Questions?",
+      "subtitle": "Our team is ready to help you get started.",
+      "web_button": "Access WebApp",
+      "tutorial_button": "Watch Tutorials"
+    }
+  },
+  "help": {
+    "hero": {
+      "badge": "Help Center",
+      "title": "How can we help you?",
+      "subtitle": "Find quick answers, detailed guides and solutions for all your questions",
+      "placeholder": "Type your question here..."
+    },
+    "quick_actions": [
+      { "title": "Talk to Support", "description": "Get in touch with our team" },
+      { "title": "Watch Tutorials", "description": "Learn with videos and guides" },
+      { "title": "System Status", "description": "Check if there are technical issues" },
+      { "title": "Community", "description": "Connect with other users" }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "The most common questions from our users",
+      "all": "All",
+      "popular": "Popular",
+      "helpful_question": "Was this answer helpful?",
+      "helpful_yes": "Yes",
+      "helpful_no": "No",
+      "empty_title": "No questions found",
+      "empty_subtitle": "Try using other search terms or explore the categories below",
+      "empty_button": "Clear Search"
+    },
+    "categories": {
+      "title": "Explore by Category",
+      "subtitle": "Find specific help for each area of Orbizy",
+      "articles": "articles"
+    }
+  },
+  "tutorials": {
+    "hero": {
+      "badge": "Learning Center",
+      "title": "Orbizy Tutorials",
+      "subtitle": "Learn how to master all Orbizy features with our complete guides and explanatory videos"
+    },
+    "search": {
+      "placeholder": "Search tutorials...",
+      "categories_label": "All Categories",
+      "difficulties_label": "All Levels",
+      "levels": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      }
+    },
+    "featured": {
+      "title": "Featured Tutorials",
+      "subtitle": "The most popular guides to get started with Orbizy",
+      "new_badge": "New",
+      "cta": "Watch"
+    },
+    "categories": {
+      "title": "Explore by Category",
+      "subtitle": "Find specific tutorials for each area of the platform",
+      "badge": "tutorials"
+    },
+    "all": {
+      "title": "All Tutorials",
+      "found": "tutorials found",
+      "filters": "Filters",
+      "download": "Download PDF Guide",
+      "more": "See more",
+      "empty": "No tutorials found",
+      "empty_subtitle": "Try adjusting filters or search terms",
+      "clear_button": "Clear Filters"
+    },
+    "paths": {
+      "title": "Learning Paths",
+      "subtitle": "Organized sequences of tutorials to master Orbizy",
+      "items": [
+        { "title": "Complete Beginner", "subtitle": "6 tutorials • 1h 30min", "description": "From zero to the first quote sent. Perfect for those starting out." },
+        { "title": "Business Growth", "subtitle": "8 tutorials • 2h 15min", "description": "Strategies to scale your business using advanced Orbizy features." },
+        { "title": "Orbizy Expert", "subtitle": "12 tutorials • 3h 45min", "description": "Master all features and become an expert on the platform." }
+      ],
+      "button": "Start Path"
+    },
+    "cta": {
+      "title": "Need Personalized Help?",
+      "subtitle": "Our team is ready to help you make the most of Orbizy",
+      "training_button": "Schedule Training",
+      "support_button": "Talk to Support",
+      "benefits": ["Free training", "Expert support", "Exclusive materials"]
+    },
+    "newsletter": {
+      "title": "New Tutorials Every Week",
+      "subtitle": "Subscribe to receive new tutorials and exclusive tips",
+      "placeholder": "Your best e-mail",
+      "button": "Subscribe",
+      "disclaimer": "We don't send spam. Cancel whenever you want."
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Expert Support",
+      "title": "How Can We Help?",
+      "subtitle": "Our team is ready to assist you. Choose the best channel for your needs"
+    },
+    "methods": {
+      "title": "Support Channels",
+      "subtitle": "Choose the best way to get in touch with us",
+      "items": [
+        { "title": "General Email", "description": "For general questions and info", "response": "Up to 24 hours" },
+        { "title": "Technical Support", "description": "Technical issues and bugs", "response": "Up to 4 hours" },
+        { "title": "Sales", "description": "Plans, pricing and demos", "response": "Up to 2 hours" },
+        { "title": "Partnerships", "description": "Business opportunities", "response": "Up to 48 hours" }
+      ]
+    },
+    "form": {
+      "title": "Send a Message",
+      "subtitle": "Fill out the form below and our team will get in touch",
+      "fields": {
+        "name": "Full Name *",
+        "name_placeholder": "Your full name",
+        "email": "Email *",
+        "email_placeholder": "your@email.com",
+        "phone": "Phone",
+        "phone_placeholder": "+1 (555) 000-0000",
+        "company": "Company",
+        "company_placeholder": "Your company name",
+        "subject": "Subject *",
+        "subject_placeholder": "Select a subject",
+        "priority": "Priority",
+        "priority_placeholder": "Select priority",
+        "message": "Message *",
+        "message_placeholder": "Describe your question or request in detail...",
+        "message_hint": "The more details you provide, the better we can help you",
+        "privacy": "I agree with the {link} and authorize the use of my data to respond to this request",
+        "privacy_link": "Privacy Policy"
+      },
+      "subjects": {
+        "support": "Technical Support",
+        "sales": "Sales and Plans",
+        "bug": "Report a Bug",
+        "suggestion": "Suggestion",
+        "partnership": "Partnerships",
+        "other": "Other"
+      },
+      "priorities": {
+        "low": "Low",
+        "normal": "Normal",
+        "high": "High",
+        "urgent": "Urgent"
+      },
+      "button": "Send Message",
+      "submitting": "Sending...",
+      "success_title": "Message sent successfully!",
+      "success_subtitle": "Our team will be in touch shortly.",
+      "error_title": "Error sending message",
+      "error_subtitle": "Please try again or contact us via email."
+    },
+    "channels": {
+      "title": "Other Support Channels",
+      "subtitle": "Multiple ways to get help when you need it",
+      "items": [
+        { "title": "Live Chat", "description": "Instant support during business hours", "availability": "Mon-Fri: 8am to 6pm", "action": "Start Chat" },
+        { "title": "Phone", "description": "Phone support for premium clients", "availability": "+1 (555) 000-0000", "action": "Call Now" },
+        { "title": "Help Center", "description": "Articles, tutorials and FAQs", "availability": "Available 24/7", "action": "Access Center" },
+        { "title": "System Status", "description": "Track the status of our services", "availability": "Real-time monitoring", "action": "Check Status" }
+      ]
+    },
+    "info": {
+      "title": "Company Information",
+      "address_title": "Address",
+      "address": "Orbizy Technology LLC\nInnovation Street, 123 - Suite 456\nVila Olimpia - Sao Paulo/SP\nZIP: 04551-000",
+      "hours_title": "Business Hours",
+      "priority_support": "Priority Support",
+      "priority_description": "Professional and Enterprise plan clients have priority support"
+    },
+    "guarantee": {
+      "title": "Response Guarantee",
+      "subtitle": "We commit to responding to all requests within established timeframes. Your satisfaction is our priority!",
+      "benefits": ["Guaranteed response", "Expert support", "Humanized service"]
+    }
+  },
+  "status": {
+    "hero": {
+      "badge": "Real-Time Monitoring",
+      "title": "System Status",
+      "subtitle": "Track the status of all Orbizy services in real-time"
+    },
+    "overall": {
+      "last_updated": "Last updated: {time}",
+      "average_uptime": "Average Uptime",
+      "refresh_button": "Refresh",
+      "statuses": {
+        "operational": "All Systems Operational",
+        "degraded": "Degraded Performance",
+        "partial": "Partial Issues",
+        "major": "Major Outage",
+        "maintenance": "Scheduled Maintenance"
+      },
+      "service_statuses": {
+        "operational": "Operational",
+        "degraded": "Degraded",
+        "partial": "Partial",
+        "major": "Outage",
+        "maintenance": "Maintenance"
+      }
+    },
+    "services": {
+      "title": "Service Status",
+      "subtitle": "Detailed monitoring of each platform component",
+      "items": [
+        { "name": "Web Application", "description": "Main Orbizy platform interface" },
+        { "name": "Mobile App", "description": "iOS and Android apps" },
+        { "name": "Main API", "description": "Backend and integration services" },
+        { "name": "Database", "description": "Data storage and processing" },
+        { "name": "Auth System", "description": "Login and user security" },
+        { "name": "Payment System", "description": "Transaction processing" },
+        { "name": "Notifications", "description": "Emails, SMS and push notifications" },
+        { "name": "CDN and Assets", "description": "Global content distribution" }
+      ],
+      "uptime": "Uptime",
+      "response_time": "Response Time",
+      "last_incident": "Last incident: {time}"
+    },
+    "incidents": {
+      "title": "Active Incidents",
+      "subtitle": "Issues we are investigating or resolving",
+      "started": "Started: {time}",
+      "updates_title": "Updates:",
+      "severities": {
+        "critical": "Critical",
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "statuses": {
+        "investigating": "Investigating",
+        "identified": "Identified",
+        "monitoring": "Monitoring",
+        "resolved": "Resolved"
+      }
+    },
+    "maintenance": {
+      "title": "Scheduled Maintenance",
+      "subtitle": "Upcoming maintenance that may affect services",
+      "scheduled_for": "Scheduled for:",
+      "estimated_duration": "Estimated duration:",
+      "impact": "Impact:"
+    },
+    "metrics": {
+      "title": "Performance Metrics",
+      "subtitle": "Historical data for the last 30 days",
+      "items": [
+        { "title": "Overall Uptime", "subtitle": "Last 30 days" },
+        { "title": "Response Time", "subtitle": "Global average" },
+        { "title": "Throughput", "subtitle": "Requests/day" },
+        { "title": "Incidents", "subtitle": "This month" }
+      ]
+    },
+    "notification": {
+      "title": "Get Notifications",
+      "subtitle": "Be notified about incidents and maintenance that may affect your use of the platform",
+      "subscribe_button": "Subscribe to Notifications",
+      "report_button": "Report Issue"
+    },
+    "footer": {
+      "updated_hint": "Data updated automatically every 30 seconds •",
+      "report_link": "Report Issue",
+      "links": {
+        "history": "History",
+        "api": "API Status",
+        "rss": "RSS Feed"
+      }
+    }
+  },
+  "lgpd": {
+    "hero": {
+      "badge": "Data Protection",
+      "title": "General Data Protection Law",
+      "subtitle": "Full transparency on how we collect, use and protect your personal data at Orbizy"
+    },
+    "commitment": {
+      "title": "Our Commitment to Privacy",
+      "description": "Orbizy is fully committed to protecting your personal data and in compliance with global data protection standards (GDPR/LGPD). We implement rigorous technical and organizational measures to ensure security, privacy and transparency in the processing of all personal information."
+    },
+    "data_types": {
+      "title": "Data We Collect",
+      "subtitle": "We only collect the data necessary to provide our services with excellence",
+      "items": [
+        { "title": "Identification Data", "description": "Name, email, phone, Tax ID", "purpose": "Account creation and management" },
+        { "title": "Usage Data", "description": "Information on how you use the platform", "purpose": "Service improvement and support" },
+        { "title": "Business Data", "description": "Company info, clients, products", "purpose": "Platform core functionality" },
+        { "title": "Technical Data", "description": "IP, browser, device type", "purpose": "Security and technical optimization" }
+      ],
+      "purpose_badge": "Purpose: {purpose}"
+    },
+    "legal_basis": {
+      "title": "Legal Basis for Processing",
+      "items": [
+        { "title": "Contract Execution", "description": "We process your data to fulfill the service contract of the Orbizy platform, including account creation, payment processing and technical support." },
+        { "title": "Consent", "description": "For marketing communications, newsletter and optional features, we request your express consent, which can be withdrawn at any time." },
+        { "title": "Legitimate Interest", "description": "For platform improvements, fraud prevention and data security, we base processing on our legitimate interest, always respecting your rights." }
+      ]
+    },
+    "rights": {
+      "title": "Your Rights as Data Subject",
+      "subtitle": "Privacy laws guarantee several rights over your personal data. See how to exercise them at Orbizy",
+      "items": [
+        { "title": "Access", "description": "Request information about your personal data" },
+        { "title": "Correction", "description": "Correct incomplete or incorrect data" },
+        { "title": "Deletion", "description": "Request the removal of personal data" },
+        { "title": "Portability", "description": "Receive your data in a structured format" }
+      ],
+      "button": "Exercise My Rights",
+      "hint": "Contact us to exercise any of your rights"
+    },
+    "security": {
+      "title": "Security Measures",
+      "subtitle": "We implement security best practices to protect your data",
+      "technical_title": "Technical Protections",
+      "organizational_title": "Organizational Protections",
+      "items": [
+        "256-bit SSL/TLS encryption in all transmissions",
+        "Automatic backup with geographic redundancy",
+        "Role-based access control (RBAC)",
+        "24/7 monitoring of suspicious activities",
+        "Regular security audits by third parties",
+        "Mandatory strong password policy"
+      ]
+    },
+    "retention": {
+      "title": "Data Retention",
+      "items": [
+        { "title": "Account Data", "description": "Maintained while account is active", "period": "Active + 5 years" },
+        { "title": "Usage Data", "description": "Logs and metrics for service improvement", "period": "24 months" },
+        { "title": "Fiscal Data", "description": "Documents for legal compliance", "period": "5 years" }
+      ]
+    },
+    "incident": {
+      "title": "Incident Response",
+      "subtitle": "In case of personal data breach, we strictly follow the protection protocol:",
+      "steps": [
+        "Notification to authorities within 72 hours",
+        "Communication to affected subjects",
+        "Immediate containment measures",
+        "Detailed incident report"
+      ]
+    },
+    "dpo": {
+      "title": "Data Protection Officer (DPO)",
+      "subtitle": "Our Data Protection Officer is available to clarify questions about privacy",
+      "email": "dpo@orbizy.com",
+      "response_time": "Response within 15 business days",
+      "footer_hint": "For requests related to your rights as a data subject, contact our DPO via the email above."
+    },
+    "last_update": {
+      "text": "January 2025",
+      "policy_link": "View Full Privacy Policy"
+    }
+  },
+  "cookies": {
+    "hero": {
+      "badge": "Cookie Policy",
+      "title": "How We Use Cookies",
+      "subtitle": "Full transparency on how we collect and use cookies to improve your Orbizy experience"
+    },
+    "what_are": {
+      "title": "What are Cookies?",
+      "description": "Cookies are small text files stored on your device when you visit a website. They help us remember your preferences, improve your experience and provide personalized features on the Orbizy platform.",
+      "benefits": ["Improve experience", "Remember preferences", "Ensure security"]
+    },
+    "types": {
+      "title": "Types of Cookies We Use",
+      "subtitle": "We classify our cookies into different categories for greater transparency",
+      "items": [
+        { "title": "Essential Cookies", "description": "Necessary for basic platform functionality", "examples": ["User authentication", "Session security", "Language preferences"], "badge_required": "Required", "badge_optional": "Optional" },
+        { "title": "Analytic Cookies", "description": "Help us understand how you use our platform", "examples": ["Google Analytics", "Usage metrics", "Performance reports"] },
+        { "title": "Marketing Cookies", "description": "Used to personalize ads and content", "examples": ["Facebook Pixel", "Google Ads", "Remarketing"] },
+        { "title": "Preference Cookies", "description": "Remember your settings and preferences", "examples": ["Dark/light theme", "Preferred layout", "Saved settings"] }
+      ],
+      "examples_title": "Examples:"
+    },
+    "preferences": {
+      "title": "Manage Your Preferences",
+      "subtitle": "You have full control over which cookies to accept",
+      "always_active": "Always active",
+      "save_button": "Save Preferences",
+      "reject_button": "Reject All (Except Essential)"
+    },
+    "table": {
+      "title": "Detailed Cookie List",
+      "subtitle": "Full information on each cookie used",
+      "headers": {
+        "name": "Cookie Name",
+        "purpose": "Purpose",
+        "type": "Type",
+        "duration": "Duration",
+        "provider": "Provider"
+      },
+      "types": {
+        "essential": "Essential",
+        "analytic": "Analytic",
+        "marketing": "Marketing",
+        "preference": "Preferences"
+      }
+    },
+    "browsers": {
+      "title": "How to Manage Cookies in Your Browser",
+      "subtitle": "Instructions for major browsers"
+    },
+    "third_party": {
+      "title": "Third-Party Cookies",
+      "policy_link": "Privacy Policy"
+    },
+    "tools": {
+      "title": "Management Tools",
+      "clear": { "title": "Clear Cookies", "description": "Removes all cookies stored by the Orbizy site", "button": "Clear All Cookies" },
+      "reset": { "title": "Reset Preferences", "description": "Resets to default cookie settings", "button": "Reset Settings" }
+    },
+    "important": {
+      "title": "Important to Know",
+      "notes": [
+        "Disabling essential cookies may affect Orbizy platform functionality.",
+        "Analytic cookies help us improve our services but are optional.",
+        "Your preferences are respected and can be changed at any time.",
+        "Updates to this policy will be communicated via the cookie banner."
+      ]
+    },
+    "footer": {
+      "title": "Questions About Cookies?",
+      "subtitle": "Our team is ready to clarify any questions about our cookie policy",
+      "pref_center_button": "Open Preference Center",
+      "contact_button": "Get in Touch"
+    }
+  },
+  "terms": {
+    "usage": {
+      "title": "Terms of Use",
+      "sections": [
+        { "title": "1. What these Terms of Use are about", "content": "1.1. IPSEC Tecnologia em Segurança Ltda... [Terms Content]" },
+        { "title": "2. Conditions for accessing and using Orbizy solutions", "content": "2.1. You can access and view these Terms..." }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        { "title": "1. What this Privacy Policy is about", "content": "1.1. IPSEC Tecnologia em Segurança Ltda..." }
+      ]
+    },
+    "last_update": "Last updated: January 2025"
   }
 }

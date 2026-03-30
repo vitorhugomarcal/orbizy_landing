@@ -1,3 +1,5 @@
+"use client"
+
 import Apple from "@/assets/apple"
 import Facebook from "@/assets/facebook"
 import Instagram from "@/assets/instagram"
@@ -27,48 +29,12 @@ import { Button } from "./ui/button"
 import { Card, CardContent } from "./ui/card"
 import { Separator } from "./ui/separator"
 
-export function Footer() {
-  const quickLinks = [
-    { name: "Funcionalidades", href: "#funcionalidades" },
-    { name: "Planos e Preços", href: "#planos" },
-    { name: "Depoimentos", href: "#depoimentos" },
-    { name: "FAQ", href: "#faq" },
-  ]
+interface FooterProps {
+  dict?: any
+}
 
-  const supportLinks = [
-    {
-      name: "Central de Ajuda",
-      href: "/ajuda",
-      icon: <HelpCircle className="w-4 h-4" />,
-    },
-    {
-      name: "Tutoriais",
-      href: "/tutoriais",
-      icon: <FileText className="w-4 h-4" />,
-    },
-    { name: "Contato", href: "/contato", icon: <Mail className="w-4 h-4" /> },
-    {
-      name: "Status do Sistema",
-      href: "/status",
-      icon: <Zap className="w-4 h-4" />,
-    },
-  ]
-
-  const legalLinks = [
-    { name: "Termos de Uso", href: "/termos-de-uso-e-privacidade" },
-    { name: "Política de Privacidade", href: "/termos-de-uso-e-privacidade" },
-    { name: "LGPD", href: "/lgpd" },
-    { name: "Cookies", href: "/cookies" },
-  ]
-
-  const businessTypes = [
-    "Salões de Beleza",
-    "Consultoria",
-    "Assistência Técnica",
-    "Comércio",
-    "Serviços",
-    "Fotografia",
-  ]
+export function Footer({ dict }: FooterProps) {
+  if (!dict?.footer) return null;
 
   return (
     <footer className="w-full bg-linear-to-br from-purple-600 via-purple-500 to-orange-500 text-white">
@@ -77,27 +43,26 @@ export function Footer() {
         <div className="max-w-[1120px] mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-              Fique por dentro das novidades
+              {dict.footer.newsletter.title}
             </h2>
             <p className="text-white/80 max-w-2xl mx-auto">
-              Receba dicas exclusivas de gestão empresarial e seja o primeiro a
-              saber sobre novas funcionalidades
+              {dict.footer.newsletter.subtitle}
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
-              placeholder="Seu melhor e-mail"
+              placeholder={dict.footer.newsletter.placeholder}
               className="flex-1 px-4 py-3 rounded-lg bg-white/20 backdrop-blur-sm border border-white/30 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
             />
             <Button className="bg-white text-purple-600 hover:bg-white/90 font-semibold px-6">
-              Inscrever-se
+              {dict.footer.newsletter.button}
             </Button>
           </div>
 
           <p className="text-center text-xs text-white/60 mt-3">
-            Não enviamos spam. Cancele quando quiser.
+            {dict.footer.newsletter.disclaimer}
           </p>
         </div>
       </div>
@@ -110,13 +75,13 @@ export function Footer() {
               variant="secondary"
               className="bg-white/20 text-white border-white/30 mb-4"
             >
-              Multiplataforma
+              {dict.footer.apps.badge}
             </Badge>
             <h2 className="text-2xl sm:text-3xl font-bold mb-4">
-              Gerencie seu negócio de qualquer lugar
+              {dict.footer.apps.title}
             </h2>
             <p className="text-white/80">
-              Acesse a Orbizy no dispositivo que preferir
+              {dict.footer.apps.description}
             </p>
           </div>
 
@@ -128,7 +93,7 @@ export function Footer() {
             >
               <Link href="https://my.orbizy.app" rel="nofollow">
                 <Globe className="w-5 h-5 mr-2" />
-                Acessar Web
+                {dict.footer.apps.web}
               </Link>
             </Button>
 
@@ -137,16 +102,17 @@ export function Footer() {
               className="w-full bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-purple-600 transition-all group"
             >
               <Playstore className="w-5 h-5 mr-2" />
-              Google Play
+              {dict.footer.apps.playstore}
             </Button>
 
             <Button
               variant="secondary"
-              className="w-full bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-purple-600 transition-all group"
+              className="w-full bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-purple-600 transition-all"
+              asChild
             >
               <Link href={"https://apps.apple.com/br/app/orbizy/id6670499792"}>
                 <Apple className="w-5 h-5 mr-2" />
-                App Store
+                {dict.footer.apps.appstore}
               </Link>
             </Button>
           </div>
@@ -168,8 +134,7 @@ export function Footer() {
                   className="h-auto w-auto mb-4"
                 />
                 <p className="text-white/80 text-sm leading-relaxed">
-                  A plataforma completa de gestão empresarial que transforma
-                  pequenos negócios em empresas organizadas e lucrativas.
+                  {dict.footer.company.description}
                 </p>
               </div>
 
@@ -177,24 +142,24 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-sm">
                   <Shield className="w-4 h-4 mr-2 text-green-300" />
-                  <span>Dados protegidos com SSL</span>
+                  <span>{dict.footer.company.trust[0]}</span>
                 </div>
                 <div className="flex items-center text-sm">
                   <Award className="w-4 h-4 mr-2 text-yellow-300" />
-                  <span>Certificado LGPD</span>
+                  <span>{dict.footer.company.trust[1]}</span>
                 </div>
                 <div className="flex items-center text-sm">
                   <Users className="w-4 h-4 mr-2 text-blue-300" />
-                  <span>+5.000 empresas ativas</span>
+                  <span>{dict.footer.company.trust[2]}</span>
                 </div>
               </div>
             </div>
 
             {/* Quick Links */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Navegação</h3>
+              <h3 className="font-semibold text-lg mb-4">{dict.footer.navigation.title}</h3>
               <ul className="space-y-3">
-                {quickLinks.map((link, index) => (
+                {dict.footer.navigation.links.map((link: any, index: number) => (
                   <li key={index}>
                     <Link
                       href={link.href}
@@ -210,16 +175,19 @@ export function Footer() {
 
             {/* Support */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Suporte</h3>
+              <h3 className="font-semibold text-lg mb-4">{dict.footer.support.title}</h3>
               <ul className="space-y-3">
-                {supportLinks.map((link, index) => (
+                {dict.footer.support.links.map((link: any, index: number) => (
                   <li key={index}>
                     <Link
                       href={link.href}
                       className="text-white/80 hover:text-white transition-colors flex items-center group"
                     >
-                      {link.icon}
-                      <span className="ml-2">{link.name}</span>
+                      {link.name === "Tutoriais" || link.name === "Tutorials" ? <FileText className="w-4 h-4 mr-2" /> :
+                        link.name === "Central de Ajuda" || link.name === "Help Center" ? <HelpCircle className="w-4 h-4 mr-2" /> :
+                          link.name === "Contato" || link.name === "Contact" ? <Mail className="w-4 h-4 mr-2" /> :
+                            <Zap className="w-4 h-4 mr-2" />}
+                      <span>{link.name}</span>
                     </Link>
                   </li>
                 ))}
@@ -227,31 +195,29 @@ export function Footer() {
 
               {/* Contact Info */}
               <div className="mt-6 space-y-2">
-                <div className="flex items-center text-sm text-white/80">
+                {/* <div className="flex items-center text-sm text-white/80">
                   <Phone className="w-4 h-4 mr-2" />
                   <span>(11) 9999-9999</span>
-                </div>
+                </div> */}
                 <div className="flex items-center text-sm text-white/80">
                   <Mail className="w-4 h-4 mr-2" />
                   <span>vhmarcal@orbizy.app</span>
                 </div>
                 <div className="flex items-center text-sm text-white/80">
                   <Clock className="w-4 h-4 mr-2" />
-                  <span>Seg-Sex: 8h às 18h</span>
+                  <span>{dict.footer.support.hours}</span>
                 </div>
               </div>
             </div>
 
             {/* Business Types */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Segmentos</h3>
+              <h3 className="font-semibold text-lg mb-4">{dict.footer.segments.title}</h3>
               <div className="grid grid-cols-1 gap-2">
-                {businessTypes.map((type, index) => (
+                {dict.footer.segments.items.map((type: string, index: number) => (
                   <Link
                     key={index}
-                    href={`/segmentos/${type
-                      .toLowerCase()
-                      .replace(/\s+/g, "-")}`}
+                    href={"/"}
                     className="text-white/80 hover:text-white transition-colors text-sm flex items-center group"
                   >
                     <Star className="w-3 h-3 mr-2 opacity-60" />
@@ -266,7 +232,7 @@ export function Footer() {
                   <div className="text-center">
                     <div className="text-2xl font-bold text-white">98%</div>
                     <div className="text-xs text-white/80">
-                      Satisfação dos clientes
+                      {dict.footer.satisfaction}
                     </div>
                   </div>
                 </CardContent>
@@ -281,7 +247,7 @@ export function Footer() {
         <div className="max-w-[1120px] mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-4 md:mb-0">
-              <h4 className="font-semibold mb-2">Siga-nos nas redes sociais</h4>
+              <h4 className="font-semibold mb-2">{dict.footer.social.title}</h4>
               <div className="flex space-x-4">
                 <Link
                   href="https://facebook.com/orbizyapp"
@@ -326,7 +292,7 @@ export function Footer() {
                   ))}
                 </div>
                 <div className="text-xs text-white/80">
-                  4.9/5 • 500+ avaliações
+                  {dict.footer.social.rating}
                 </div>
               </div>
             </div>
@@ -340,12 +306,12 @@ export function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between text-sm">
             <div className="mb-4 md:mb-0">
               <p>
-                &copy; <CurrentYear /> Orbizy. Todos os direitos reservados.
+                &copy; <CurrentYear /> Orbizy. {dict.footer.bottom.rights}
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-4">
-              {legalLinks.map((link, index) => (
+              {dict.footer.bottom.legal.map((link: any, index: number) => (
                 <Link
                   key={index}
                   href={link.href}
@@ -361,7 +327,7 @@ export function Footer() {
 
           <div className="text-center text-xs text-white/60">
             <p>
-              Desenvolvido com ❤️ no Brasil • VHMarcal •
+              {dict.footer.bottom.developed} • VHMarcal •
               <Link href="/sitemap" className="hover:text-white/80 ml-1">
                 Sitemap
               </Link>

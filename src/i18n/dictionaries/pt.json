@@ -1,42 +1,792 @@
 {
   "seo": {
-    "title": "Orbizy Invoice - Gestão de Orçamentos e Faturas | App de Gestão",
-    "description": "Transforme seu negócio com a Orbizy! Gestão de orçamentos profissional, faturamento automatizado e controle total para pequenos negócios. Teste grátis por 30 dias!",
-    "keywords": "gestão de orçamentos, faturamento, orçamentos profissionais, faturas, gestão empresarial, pequenos negócios, controle financeiro, orbizy"
+    "title": "Orbizy - Gestão Empresarial Completa para Pequenos Negócios | App de Gestão",
+    "description": "Transforme seu negócio com a Orbizy! Gestão completa: controle financeiro, clientes, estoque, agendamentos, emissão de documentos. Teste grátis por 30 dias!",
+    "keywords": "gestão empresarial, pequenos negócios, controle financeiro, gestão de clientes, emissão de notas, orçamentos, aplicativo de gestão, ERP pequenas empresas, sistema de gestão, controle de estoque, agenda online, recibos digitais"
+  },
+  "header": {
+    "cta": "Teste Grátis"
   },
   "hero": {
     "badge": "Avaliação 4.9/5 • +5.000 empresas",
     "title_part1": "Transforme sua",
-    "title_highlight": "gestão de orçamentos",
-    "subtitle": "Crie orçamentos profissionais em segundos, envie por WhatsApp e gere faturas automaticamente. Aumente sua produtividade em 60% e profissionalize sua administração.",
+    "title_highlight": "gestão empresarial",
+    "subtitle": "Mais de 5.000 empreendedores já transformaram seus negócios com a Orbizy. Descubra a simplicidade de um aplicativo moderno, projetado para tornar a gestão do seu negócio intuitiva e eficiente.",
     "benefits": [
       "Controle financeiro completo",
       "Documentos profissionais",
       "Gestão de clientes integrada",
       "Relatórios em tempo real"
     ],
-    "cta_primary": "Começar Grátis Agora",
+    "cta_primary": "Começar Teste Grátis",
     "cta_secondary": "Ver Planos",
     "stats": {
       "trial": "30 dias de teste",
       "setup": "0% taxa de setup",
       "support": "Suporte 24/7"
-    }
+    },
+    "value_prop": "Descubra a simplicidade de um aplicativo moderno, projetado para tornar a gestão do seu negócio intuitiva e eficiente."
+  },
+  "stats": [
+    { "number": "5.000+", "label": "Empresas Ativas" },
+    { "number": "98%", "label": "Satisfação" },
+    { "number": "150K+", "label": "Documentos Emitidos" },
+    { "number": "24/7", "label": "Suporte" }
+  ],
+  "segments": {
+    "badge": "Segmentos Atendidos",
+    "title": "Perfeito para o seu tipo de negócio",
+    "description": "A Orbizy atende diversos segmentos com soluções personalizadas para cada necessidade",
+    "items": [
+      { "name": "Salões de Beleza", "count": "1.200+" },
+      { "name": "Assistência Técnica", "count": "800+" },
+      { "name": "Consultoria", "count": "600+" },
+      { "name": "Comércio", "count": "900+" },
+      { "name": "Fotografia", "count": "400+" },
+      { "name": "Serviços", "count": "1.100+" }
+    ]
   },
   "features": {
-    "title": "Tudo que seu negócio precisa",
-    "budget": {
-      "title": "Emissão de Orçamentos",
-      "description": "Crie orçamentos profissionais com seu logo e envie diretamente para o cliente."
+    "badge": "Funcionalidades",
+    "title": "Tudo que seu negócio precisa em um só lugar",
+    "description": "Ferramentas completas para gestão empresarial, desenvolvidas especialmente para empreendedores que querem crescer de forma organizada.",
+    "tabs": {
+      "overview": "Visão Geral",
+      "financial": "Financeiro",
+      "documents": "Documentos"
     },
-    "invoice": {
-      "title": "Faturamento Automático",
-      "description": "Transforme orçamentos aprovados em faturas com um único clique."
-    }
+    "items": [
+      {
+        "title": "Gestão de Clientes",
+        "description": "Catálogo completo com histórico de pedidos e relacionamento personalizado",
+        "details": "Mantenha todos os dados dos seus clientes organizados, com histórico completo de compras e preferências."
+      },
+      {
+        "title": "Controle Financeiro",
+        "description": "Monitore receitas, despesas e fluxo de caixa com relatórios detalhados",
+        "details": "Dashboards intuitivos com gráficos em tempo real para acompanhar a saúde financeira do seu negócio."
+      },
+      {
+        "title": "Documentos Profissionais",
+        "description": "Emita orçamentos, contratos, notas e recibos com layout profissional",
+        "details": "Templates personalizáveis com sua marca, enviados automaticamente por email ou WhatsApp."
+      },
+      {
+        "title": "Agendamento Inteligente",
+        "description": "Organize compromissos e serviços com agenda integrada",
+        "details": "Sistema de agendamento online com confirmações automáticas e lembretes por SMS."
+      },
+      {
+        "title": "Controle de Estoque",
+        "description": "Gerencie produtos e serviços com alertas automáticos",
+        "details": "Controle completo de entrada e saída, com alertas de estoque baixo e relatórios de giro."
+      },
+      {
+        "title": "Gestão de Parcelas",
+        "description": "Controle valores a receber com notificações automáticas",
+        "details": "Acompanhe pagamentos pendentes, envie lembretes automáticos e organize seu fluxo de caixa."
+      }
+    ],
+    "financial_details": [
+      "Fluxo de caixa em tempo real",
+      "Análise de lucratividade",
+      "Projeções financeiras",
+      "Comparativos mensais"
+    ],
+    "receivables_details": [
+      "Gestão de parcelas",
+      "Lembretes automáticos",
+      "Múltiplas formas de pagamento",
+      "Conciliação bancária"
+    ],
+    "doc_types": [
+      { "title": "Orçamentos", "description": "Templates profissionais com aprovação digital" },
+      { "title": "Contratos", "description": "Modelos jurídicos validados e personalizáveis" },
+      { "title": "Recibos", "description": "Emissão automática com validade fiscal" }
+    ]
+  },
+  "pricing": {
+    "badge": "Planos",
+    "title": "Escolha o plano ideal para seu negócio",
+    "description": "Comece gratuitamente e evolua conforme seu crescimento",
+    "popular": "Mais Popular",
+    "period": "/mês",
+    "cta_free": "Começar Grátis",
+    "cta_paid": "Escolher Plano",
+    "plans": [
+      {
+        "name": "Gratuito",
+        "price": "R$ 0",
+        "description": "Perfeito para começar",
+        "features": [
+          "Até 50 clientes",
+          "10 documentos/mês",
+          "Relatórios básicos",
+          "Suporte por email"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "R$ 24,90",
+        "description": "Para negócios em crescimento",
+        "features": [
+          "Acesso ao my.Orbizy web",
+          "Adicione sua logomarca",
+          "Personalização dos documentos",
+          "Backup automático",
+          "Suporte prioritário"
+        ]
+      },
+      {
+        "name": "Team",
+        "price": "R$ 49,90",
+        "description": "Para empresas estabelecidas",
+        "features": [
+          "Gerente de conta",
+          "Múltiplos usuários",
+          "Teste as novidades primeiro",
+          "API personalizada"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Depoimentos",
+    "title": "Histórias de sucesso reais",
+    "description": "Veja como a Orbizy transformou negócios como o seu",
+    "items": [
+      {
+        "name": "Maria Silva",
+        "business": "Salão de Beleza Elegance",
+        "content": "A Orbizy transformou completamente meu salão. Agora tenho controle total dos agendamentos e o faturamento aumentou 40% em 6 meses!",
+        "results": "+40% faturamento"
+      },
+      {
+        "name": "João Santos",
+        "business": "JS Consultoria",
+        "content": "Os relatórios financeiros são incríveis! Consigo tomar decisões baseadas em dados reais e meus clientes ficaram impressionados com os orçamentos profissionais.",
+        "results": "98% aprovação orçamentos"
+      },
+      {
+        "name": "Ana Costa",
+        "business": "TechRepair Assistência",
+        "content": "O controle de estoque me salvou muito dinheiro. Não tenho mais produtos parados e os alertas automáticos são perfeitos!",
+        "results": "-30% custos estoque"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Perguntas Frequentes",
+    "description": "Tire suas dúvidas sobre a Orbizy",
+    "items": [
+      {
+        "question": "Como funciona o período de teste gratuito?",
+        "answer": "Você tem 30 dias para testar todas as funcionalidades da Orbizy sem compromisso. Não é necessário cartão de crédito para começar."
+      },
+      {
+        "question": "Posso cancelar a qualquer momento?",
+        "answer": "Sim! Você pode cancelar sua assinatura a qualquer momento sem taxas ou multas. Seus dados ficam seguros por 90 dias após o cancelamento."
+      },
+      {
+        "question": "A Orbizy funciona offline?",
+        "answer": "Sim! Você pode trabalhar offline e os dados são sincronizados automaticamente quando a conexão for restabelecida."
+      },
+      {
+        "question": "Como é feita a migração dos meus dados?",
+        "answer": "Nossa equipe oferece suporte completo para migração. Você pode importar dados de planilhas ou outros sistemas facilmente."
+      },
+      {
+        "question": "Há limite de documentos emitidos?",
+        "answer": "No plano gratuito são 10 documentos/mês. Nos planos pagos não há limites para emissão de orçamentos, contratos e recibos."
+      },
+      {
+        "question": "Posso personalizar os documentos com minha marca?",
+        "answer": "Sim! Você pode adicionar sua logo, cores da marca e informações personalizadas em todos os documentos."
+      }
+    ]
+  },
+  "trust": {
+    "title": "Segurança e Confiabilidade",
+    "items": [
+      { "title": "Dados Protegidos", "description": "Criptografia SSL 256-bits e backup automático em nuvem" },
+      { "title": "Certificações", "description": "Compliance com LGPD e certificações de segurança" },
+      { "title": "99.9% Uptime", "description": "Disponibilidade garantida com infraestrutura robusta" }
+    ]
+  },
+  "final_cta": {
+    "title": "Transforme seu negócio hoje mesmo!",
+    "subtitle": "Junte-se a mais de 5.000 empreendedores que já revolucionaram sua gestão com a Orbizy",
+    "cta": "Começar Teste Grátis Agora",
+    "badge1": "Sem cartão de crédito",
+    "badge2": "Cancelamento gratuito",
+    "badge3": "Suporte especializado"
   },
   "common": {
-    "free_trial": "Sem cartão de crédito • Cancelamento gratuito • Suporte humanizado",
-    "start_now": "Começar Agora",
-    "discover_more": "Descubra mais"
+    "free_trial": "Teste Grátis por 30 Dias",
+    "no_credit_card": "Sem cartão de crédito",
+    "cancel_anytime": "Cancelamento gratuito",
+    "discover_more": "Descubra mais",
+    "start_now": "Começar Agora"
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Fique por dentro das novidades",
+      "subtitle": "Receba dicas exclusivas de gestão empresarial e seja o primeiro a saber sobre novas funcionalidades",
+      "placeholder": "Seu melhor e-mail",
+      "button": "Inscrever-se",
+      "disclaimer": "Não enviamos spam. Cancele quando quiser."
+    },
+    "apps": {
+      "badge": "Multiplataforma",
+      "title": "Gerencie seu negócio de qualquer lugar",
+      "description": "Acesse a Orbizy no dispositivo que preferir",
+      "web": "Acessar Web",
+      "playstore": "Google Play",
+      "appstore": "App Store"
+    },
+    "company": {
+      "description": "A plataforma completa de gestão empresarial que transforma pequenos negócios em empresas organizadas e lucrativas.",
+      "trust": [
+        "Dados protegidos com SSL",
+        "Certificado LGPD",
+        "+5.000 empresas ativas"
+      ]
+    },
+    "navigation": {
+      "title": "Navegação",
+      "links": [
+        { "name": "Funcionalidades", "href": "#funcionalidades" },
+        { "name": "Planos e Preços", "href": "#planos" },
+        { "name": "Depoimentos", "href": "#depoimentos" },
+        { "name": "FAQ", "href": "#faq" }
+      ]
+    },
+    "support": {
+      "title": "Suporte",
+      "links": [
+        { "name": "Central de Ajuda", "href": "/ajuda" },
+        { "name": "Tutoriais", "href": "/tutoriais" },
+        { "name": "Contato", "href": "/contato" },
+        { "name": "Status do Sistema", "href": "/status" }
+      ],
+      "hours": "Seg-Sex: 8h às 18h"
+    },
+    "segments": {
+      "title": "Segmentos",
+      "items": [
+        "Salões de Beleza",
+        "Consultoria",
+        "Assistência Técnica",
+        "Comércio",
+        "Serviços",
+        "Fotografia"
+      ]
+    },
+    "social": {
+      "title": "Siga-nos nas redes sociais",
+      "rating": "4.9/5 • 500+ avaliações"
+    },
+    "bottom": {
+      "rights": "Todos os direitos reservados.",
+      "legal": [
+        { "name": "Termos de Uso", "href": "/termos-de-uso-e-privacidade" },
+        { "name": "Política de Privacidade", "href": "/termos-de-uso-e-privacidade" },
+        { "name": "LGPD", "href": "/lgpd" },
+        { "name": "Cookies", "href": "/cookies" }
+      ],
+      "developed": "Desenvolvido com ❤️ no Brasil"
+    },
+    "satisfaction": "Satisfação dos clientes"
+  },
+  "download": {
+    "hero": {
+      "badge": "App Mobile Disponível",
+      "plan_selected": "Plano {plan} selecionado!",
+      "activation_hint": "Baixe o app para ativar sua conta e começar a usar",
+      "title": "Baixe o App Orbizy",
+      "subtitle": "Gerencie seu negócio de qualquer lugar com nosso aplicativo completo. Disponível para iOS e Android."
+    },
+    "platforms": {
+      "title": "Escolha Sua Plataforma",
+      "subtitle": "Escaneie o QR Code ou clique no botão para baixar",
+      "ios": "Para iPhone e iPad",
+      "android": "Para smartphones Android",
+      "cta_ios": "Baixar na App Store",
+      "cta_android": "Baixar no Google Play"
+    },
+    "features": {
+      "title": "Tudo na Palma da Sua Mão",
+      "subtitle": "O app Orbizy tem todas as funcionalidades essenciais",
+      "items": [
+        { "title": "Agendamentos", "description": "Gerencie sua agenda em qualquer lugar" },
+        { "title": "Clientes", "description": "Acesso completo à base de clientes" },
+        { "title": "Orçamentos", "description": "Crie e envie orçamentos na hora" },
+        { "title": "Relatórios", "description": "Acompanhe seu desempenho" }
+      ]
+    },
+    "benefits": {
+      "title": "Vantagens Exclusivas",
+      "subtitle": "Por que usar a versão mobile no seu dia a dia",
+      "items": [
+        "Funciona offline - sincroniza quando conectar",
+        "Notificações push para não perder nada",
+        "Interface otimizada para mobile",
+        "Acesso rápido às funcionalidades principais",
+        "Sincronização automática com a web",
+        "Backup seguro na nuvem"
+      ]
+    },
+    "cta": {
+      "title": "Ainda com Dúvidas?",
+      "subtitle": "Nossa equipe está pronta para ajudar você a começar.",
+      "web_button": "Acessar WebApp",
+      "tutorial_button": "Ver Tutoriais"
+    }
+  },
+  "help": {
+    "hero": {
+      "badge": "Central de Ajuda",
+      "title": "Como podemos ajudar você?",
+      "subtitle": "Encontre respostas rápidas, guias detalhados e soluções para todas as suas dúvidas",
+      "placeholder": "Digite sua dúvida aqui..."
+    },
+    "quick_actions": [
+      { "title": "Falar com Suporte", "description": "Entre em contato com nossa equipe" },
+      { "title": "Ver Tutoriais", "description": "Aprenda com vídeos e guias" },
+      { "title": "Status do Sistema", "description": "Verifique se há problemas técnicos" },
+      { "title": "Comunidade", "description": "Conecte-se com outros usuários" }
+    ],
+    "faq": {
+      "title": "Perguntas Mais Frequentes",
+      "subtitle": "As dúvidas mais comuns dos nossos usuários",
+      "all": "Todas",
+      "popular": "Popular",
+      "helpful_question": "Esta resposta foi útil?",
+      "helpful_yes": "Sim",
+      "helpful_no": "Não",
+      "empty_title": "Nenhuma pergunta encontrada",
+      "empty_subtitle": "Tente usar outros termos de busca ou explore as categorias abaixo",
+      "empty_button": "Limpar Busca"
+    },
+    "categories": {
+      "title": "Explore por Categoria",
+      "subtitle": "Encontre ajuda específica para cada área da Orbizy",
+      "articles": "artigos"
+    }
+  },
+  "tutorials": {
+    "hero": {
+      "badge": "Centro de Aprendizado",
+      "title": "Tutoriais Orbizy",
+      "subtitle": "Aprenda a dominar todas as funcionalidades da Orbizy com nossos guias completos e vídeos explicativos"
+    },
+    "search": {
+      "placeholder": "Buscar tutoriais...",
+      "categories_label": "Todas as Categorias",
+      "difficulties_label": "Todos os Níveis",
+      "levels": {
+        "beginner": "Iniciante",
+        "intermediate": "Intermediário",
+        "advanced": "Avançado"
+      }
+    },
+    "featured": {
+      "title": "Tutoriais em Destaque",
+      "subtitle": "Os guias mais populares para começar com a Orbizy",
+      "new_badge": "Novo",
+      "cta": "Assistir"
+    },
+    "categories": {
+      "title": "Explore por Categoria",
+      "subtitle": "Encontre tutoriais específicos para cada área da plataforma",
+      "badge": "tutoriais"
+    },
+    "all": {
+      "title": "Todos os Tutoriais",
+      "found": "tutoriais encontrados",
+      "filters": "Filtros",
+      "download": "Baixar Guia PDF",
+      "more": "Ver mais",
+      "empty": "Nenhum tutorial encontrado",
+      "empty_subtitle": "Tente ajustar os filtros ou termos de busca",
+      "clear_button": "Limpar Filtros"
+    },
+    "paths": {
+      "title": "Trilhas de Aprendizado",
+      "subtitle": "Sequências organizadas de tutoriais para dominar a Orbizy",
+      "items": [
+        { "title": "Iniciante Completo", "subtitle": "6 tutoriais • 1h 30min", "description": "Do zero ao primeiro orçamento enviado. Perfeito para quem está começando." },
+        { "title": "Crescimento do Negócio", "subtitle": "8 tutoriais • 2h 15min", "description": "Estratégias para escalar seu negócio usando recursos avançados da Orbizy." },
+        { "title": "Especialista Orbizy", "subtitle": "12 tutoriais • 3h 45min", "description": "Domine todos os recursos e torne-se um especialista na plataforma." }
+      ],
+      "button": "Começar Trilha"
+    },
+    "cta": {
+      "title": "Precisa de Ajuda Personalizada?",
+      "subtitle": "Nossa equipe está pronta para ajudar você a aproveitar ao máximo a Orbizy",
+      "training_button": "Agendar Treinamento",
+      "support_button": "Falar com Suporte",
+      "benefits": ["Treinamento gratuito", "Suporte especializado", "Materiais exclusivos"]
+    },
+    "newsletter": {
+      "title": "Novos Tutoriais Toda Semana",
+      "subtitle": "Inscreva-se para receber os novos tutoriais e dicas exclusivas",
+      "placeholder": "Seu melhor e-mail",
+      "button": "Inscrever-se",
+      "disclaimer": "Não enviamos spam. Cancele quando quiser."
+    }
+  },
+  "contact": {
+    "hero": {
+      "badge": "Atendimento Especializado",
+      "title": "Como Podemos Ajudar?",
+      "subtitle": "Nossa equipe está pronta para atender você. Escolha o canal mais adequado para sua necessidade"
+    },
+    "methods": {
+      "title": "Canais de Atendimento",
+      "subtitle": "Escolha a melhor forma de entrar em contato conosco",
+      "items": [
+        { "title": "E-mail Geral", "description": "Para dúvidas gerais e informações", "response": "Até 24 horas" },
+        { "title": "Suporte Técnico", "description": "Problemas técnicos e bugs", "response": "Até 4 horas" },
+        { "title": "Vendas", "description": "Planos, preços e demonstrações", "response": "Até 2 horas" },
+        { "title": "Parcerias", "description": "Oportunidades de negócio", "response": "Até 48 horas" }
+      ]
+    },
+    "form": {
+      "title": "Envie sua Mensagem",
+      "subtitle": "Preencha o formulário abaixo e nossa equipe entrará em contato",
+      "fields": {
+        "name": "Nome Completo *",
+        "name_placeholder": "Seu nome completo",
+        "email": "E-mail *",
+        "email_placeholder": "seu@email.com",
+        "phone": "Telefone",
+        "phone_placeholder": "(11) 99999-9999",
+        "company": "Empresa",
+        "company_placeholder": "Nome da sua empresa",
+        "subject": "Assunto *",
+        "subject_placeholder": "Selecione o assunto",
+        "priority": "Prioridade",
+        "priority_placeholder": "Selecione a prioridade",
+        "message": "Mensagem *",
+        "message_placeholder": "Descreva sua dúvida ou solicitação em detalhes...",
+        "message_hint": "Quanto mais detalhes você fornecer, melhor poderemos ajudá-lo",
+        "privacy": "Concordo com a {link} e autorizo o uso dos meus dados para responder esta solicitação",
+        "privacy_link": "Política de Privacidade"
+      },
+      "subjects": {
+        "support": "Suporte Técnico",
+        "sales": "Vendas e Planos",
+        "bug": "Reportar Bug",
+        "suggestion": "Sugestão",
+        "partnership": "Parcerias",
+        "other": "Outro"
+      },
+      "priorities": {
+        "low": "Baixa",
+        "normal": "Normal",
+        "high": "Alta",
+        "urgent": "Urgente"
+      },
+      "button": "Enviar Mensagem",
+      "submitting": "Enviando...",
+      "success_title": "Mensagem enviada com sucesso!",
+      "success_subtitle": "Nossa equipe entrará em contato em breve.",
+      "error_title": "Erro ao enviar mensagem",
+      "error_subtitle": "Tente novamente ou entre em contato por e-mail."
+    },
+    "channels": {
+      "title": "Outros Canais de Suporte",
+      "subtitle": "Múltiplas formas de obter ajuda quando precisar",
+      "items": [
+        { "title": "Chat ao Vivo", "description": "Atendimento instantâneo durante horário comercial", "availability": "Seg-Sex: 8h às 18h", "action": "Iniciar Chat" },
+        { "title": "Telefone", "description": "Suporte por telefone para clientes premium", "availability": "(11) 4000-0000", "action": "Ligar Agora" },
+        { "title": "Central de Ajuda", "description": "Artigos, tutoriais e perguntas frequentes", "availability": "Disponível 24/7", "action": "Acessar Central" },
+        { "title": "Status do Sistema", "description": "Acompanhe o status dos nossos serviços", "availability": "Monitoramento em tempo real", "action": "Ver Status" }
+      ]
+    },
+    "info": {
+      "title": "Informações da Empresa",
+      "address_title": "Endereço",
+      "address": "Orbizy Tecnologia Ltda.\nRua das Inovações, 123 - Sala 456\nVila Olímpia - São Paulo/SP\nCEP: 04551-000",
+      "hours_title": "Horários de Atendimento",
+      "priority_support": "Atendimento Prioritário",
+      "priority_description": "Clientes dos planos Profissional e Empresarial têm atendimento prioritário"
+    },
+    "guarantee": {
+      "title": "Garantia de Resposta",
+      "subtitle": "Comprometemo-nos a responder todas as solicitações dentro dos prazos estabelecidos. Sua satisfação é nossa prioridade!",
+      "benefits": ["Resposta garantida", "Suporte especializado", "Atendimento humanizado"]
+    }
+  },
+  "status": {
+    "hero": {
+      "badge": "Monitoramento em Tempo Real",
+      "title": "Status do Sistema",
+      "subtitle": "Acompanhe o status de todos os serviços da Orbizy em tempo real"
+    },
+    "overall": {
+      "last_updated": "Última atualização: {time}",
+      "average_uptime": "Uptime Médio",
+      "refresh_button": "Atualizar",
+      "statuses": {
+        "operational": "Todos os Sistemas Operacionais",
+        "degraded": "Performance Degradada",
+        "partial": "Problemas Parciais",
+        "major": "Problemas Críticos",
+        "maintenance": "Manutenção Programada"
+      },
+      "service_statuses": {
+        "operational": "Operacional",
+        "degraded": "Degradado",
+        "partial": "Parcial",
+        "major": "Indisponível",
+        "maintenance": "Manutenção"
+      }
+    },
+    "services": {
+      "title": "Status dos Serviços",
+      "subtitle": "Monitoramento detalhado de cada componente da plataforma",
+      "items": [
+        { "name": "Aplicação Web", "description": "Interface principal da plataforma Orbizy" },
+        { "name": "Aplicativo Mobile", "description": "Apps iOS e Android" },
+        { "name": "API Principal", "description": "Serviços de backend e integração" },
+        { "name": "Banco de Dados", "description": "Armazenamento e processamento de dados" },
+        { "name": "Sistema de Autenticação", "description": "Login e segurança de usuários" },
+        { "name": "Sistema de Pagamentos", "description": "Processamento de transações" },
+        { "name": "Notificações", "description": "E-mails, SMS e push notifications" },
+        { "name": "CDN e Assets", "description": "Distribuição de conteúdo global" }
+      ],
+      "uptime": "Uptime",
+      "response_time": "Tempo de Resposta",
+      "last_incident": "Último incidente: {time}"
+    },
+    "incidents": {
+      "title": "Incidentes Ativos",
+      "subtitle": "Problemas que estamos investigando ou resolvendo",
+      "started": "Iniciado: {time}",
+      "updates_title": "Atualizações:",
+      "severities": {
+        "critical": "Crítico",
+        "high": "Alto",
+        "medium": "Médio",
+        "low": "Baixo"
+      },
+      "statuses": {
+        "investigating": "Investigando",
+        "identified": "Identificado",
+        "monitoring": "Monitorando",
+        "resolved": "Resolvido"
+      }
+    },
+    "maintenance": {
+      "title": "Manutenções Programadas",
+      "subtitle": "Próximas manutenções que podem afetar os serviços",
+      "scheduled_for": "Agendado para:",
+      "estimated_duration": "Duração estimada:",
+      "impact": "Impacto:"
+    },
+    "metrics": {
+      "title": "Métricas de Performance",
+      "subtitle": "Dados históricos dos últimos 30 dias",
+      "items": [
+        { "title": "Uptime Geral", "subtitle": "Últimos 30 dias" },
+        { "title": "Tempo de Resposta", "subtitle": "Média global" },
+        { "title": "Throughput", "subtitle": "Requests/dia" },
+        { "title": "Incidentes", "subtitle": "Este mês" }
+      ]
+    },
+    "notification": {
+      "title": "Receba Notificações",
+      "subtitle": "Seja notificado sobre incidentes e manutenções que podem afetar seu uso da plataforma",
+      "subscribe_button": "Inscrever-se nas Notificações",
+      "report_button": "Reportar Problema"
+    },
+    "footer": {
+      "updated_hint": "Dados atualizados automaticamente a cada 30 segundos •",
+      "report_link": "Reportar Problema",
+      "links": {
+        "history": "Histórico",
+        "api": "Status API",
+        "rss": "RSS Feed"
+      }
+    }
+  },
+  "lgpd": {
+    "hero": {
+      "badge": "Proteção de Dados",
+      "title": "Lei Geral de Proteção de Dados",
+      "subtitle": "Transparência total sobre como coletamos, usamos e protegemos seus dados pessoais na Orbizy"
+    },
+    "commitment": {
+      "title": "Nosso Compromisso com a LGPD",
+      "description": "A Orbizy está totalmente comprometida com a proteção dos seus dados pessoais e em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Implementamos medidas técnicas e organizacionais rigorosas para garantir a segurança, privacidade e transparência no tratamento de todas as informações pessoais."
+    },
+    "data_types": {
+      "title": "Dados que Coletamos",
+      "subtitle": "Coletamos apenas os dados necessários para fornecer nossos serviços com excelência",
+      "items": [
+        { "title": "Dados de Identificação", "description": "Nome, e-mail, telefone, CPF/CNPJ", "purpose": "Criação e gerenciamento da conta" },
+        { "title": "Dados de Uso", "description": "Informações sobre como você usa a plataforma", "purpose": "Melhoria dos serviços e suporte" },
+        { "title": "Dados do Negócio", "description": "Informações da empresa, clientes, produtos", "purpose": "Funcionamento da plataforma de gestão" },
+        { "title": "Dados Técnicos", "description": "IP, navegador, dispositivo utilizado", "purpose": "Segurança e otimização técnica" }
+      ],
+      "purpose_badge": "Finalidade: {purpose}"
+    },
+    "legal_basis": {
+      "title": "Base Legal para Tratamento",
+      "items": [
+        { "title": "Execução de Contrato", "description": "Tratamos seus dados para cumprir o contrato de prestação de serviços da plataforma Orbizy, incluindo criação de conta, processamento de pagamentos e suporte técnico." },
+        { "title": "Consentimento", "description": "Para comunicações de marketing, newsletter e funcionalidades opcionais, solicitamos seu consentimento expresso, que pode ser retirado a qualquer momento." },
+        { "title": "Legítimo Interesse", "description": "Para melhorias na plataforma, prevenção de fraudes e segurança dos dados, baseamos o tratamento em nosso legítimo interesse, sempre respeitando seus direitos." }
+      ]
+    },
+    "rights": {
+      "title": "Seus Direitos como Titular",
+      "subtitle": "A LGPD garante diversos direitos sobre seus dados pessoais. Veja como exercê-los na Orbizy",
+      "items": [
+        { "title": "Acesso", "description": "Solicitar informações sobre seus dados pessoais" },
+        { "title": "Correção", "description": "Corrigir dados incompletos ou incorretos" },
+        { "title": "Exclusão", "description": "Solicitar a remoção de dados pessoais" },
+        { "title": "Portabilidade", "description": "Receber seus dados em formato estruturado" }
+      ],
+      "button": "Exercer Meus Direitos",
+      "hint": "Entre em contato conosco para exercer qualquer um dos seus direitos"
+    },
+    "security": {
+      "title": "Medidas de Segurança",
+      "subtitle": "Implementamos as melhores práticas de segurança para proteger seus dados",
+      "technical_title": "Proteções Técnicas",
+      "organizational_title": "Proteções Organizacionais",
+      "items": [
+        "Criptografia SSL/TLS 256-bits em todas as transmissões",
+        "Backup automático com redundância geográfica",
+        "Controle de acesso baseado em funções (RBAC)",
+        "Monitoramento 24/7 de atividades suspeitas",
+        "Auditoria regular de segurança por terceiros",
+        "Política de senhas fortes obrigatória"
+      ]
+    },
+    "retention": {
+      "title": "Retenção de Dados",
+      "items": [
+        { "title": "Dados de Conta", "description": "Mantidos enquanto a conta estiver ativa", "period": "Ativa + 5 anos" },
+        { "title": "Dados de Uso", "description": "Logs e métricas para melhoria dos serviços", "period": "24 meses" },
+        { "title": "Dados Fiscais", "description": "Documentos para cumprimento legal", "period": "5 anos" }
+      ]
+    },
+    "incident": {
+      "title": "Resposta a Incidentes",
+      "subtitle": "Em caso de violação de dados pessoais, seguimos rigorosamente o protocolo da LGPD:",
+      "steps": [
+        "Notificação à ANPD em até 72 horas",
+        "Comunicação aos titulares afetados",
+        "Medidas imediatas de contenção",
+        "Relatório detalhado do incidente"
+      ]
+    },
+    "dpo": {
+      "title": "Encarregado de Dados (DPO)",
+      "subtitle": "Nosso Encarregado de Proteção de Dados está disponível para esclarecer dúvidas sobre LGPD",
+      "email": "dpo@orbizy.com",
+      "response_time": "Resposta em até 15 dias úteis",
+      "footer_hint": "Para solicitações relacionadas aos seus direitos como titular de dados pessoais, entre em contato com nosso DPO através do e-mail acima."
+    },
+    "last_update": {
+      "text": "Janeiro de 2025",
+      "policy_link": "Ver Política de Privacidade Completa"
+    }
+  },
+  "cookies": {
+    "hero": {
+      "badge": "Política de Cookies",
+      "title": "Como Utilizamos Cookies",
+      "subtitle": "Transparência total sobre como coletamos e utilizamos cookies para melhorar sua experiência na Orbizy"
+    },
+    "what_are": {
+      "title": "O que são Cookies?",
+      "description": "Cookies são pequenos arquivos de texto armazenados no seu dispositivo quando você visita um site. Eles nos ajudam a lembrar suas preferências, melhorar sua experiência e fornecer funcionalidades personalizadas na plataforma Orbizy.",
+      "benefits": ["Melhoram a experiência", "Lembram preferências", "Garantem segurança"]
+    },
+    "types": {
+      "title": "Tipos de Cookies que Utilizamos",
+      "subtitle": "Classificamos nossos cookies em diferentes categorias para maior transparência",
+      "items": [
+        { "title": "Cookies Essenciais", "description": "Necessários para o funcionamento básico da plataforma", "examples": ["Autenticação de usuário", "Segurança da sessão", "Preferências de idioma"], "badge_required": "Obrigatório", "badge_optional": "Opcional" },
+        { "title": "Cookies Analíticos", "description": "Nos ajudam a entender como você usa nossa plataforma", "examples": ["Google Analytics", "Métricas de uso", "Relatórios de performance"] },
+        { "title": "Cookies de Marketing", "description": "Utilizados para personalizar anúncios e conteúdo", "examples": ["Facebook Pixel", "Google Ads", "Remarketing"] },
+        { "title": "Cookies de Preferências", "description": "Lembram suas configurações e preferências", "examples": ["Tema escuro/claro", "Layout preferido", "Configurações salvas"] }
+      ],
+      "examples_title": "Exemplos:"
+    },
+    "preferences": {
+      "title": "Gerencie suas Preferências",
+      "subtitle": "Você tem controle total sobre quais cookies aceitar",
+      "always_active": "Sempre ativo",
+      "save_button": "Salvar Preferências",
+      "reject_button": "Rejeitar Todos (Exceto Essenciais)"
+    },
+    "table": {
+      "title": "Lista Detalhada de Cookies",
+      "subtitle": "Informações completas sobre cada cookie utilizado",
+      "headers": {
+        "name": "Nome do Cookie",
+        "purpose": "Finalidade",
+        "type": "Tipo",
+        "duration": "Duração",
+        "provider": "Provedor"
+      },
+      "types": {
+        "essential": "Essencial",
+        "analytic": "Analítico",
+        "marketing": "Marketing",
+        "preference": "Preferências"
+      }
+    },
+    "browsers": {
+      "title": "Como Gerenciar Cookies no seu Navegador",
+      "subtitle": "Instruções para os principais navegadores"
+    },
+    "third_party": {
+      "title": "Cookies de Terceiros",
+      "policy_link": "Política de Privacidade"
+    },
+    "tools": {
+      "title": "Ferramentas de Gerenciamento",
+      "clear": { "title": "Limpar Cookies", "description": "Remove todos os cookies armazenados pelo site Orbizy", "button": "Limpar Todos os Cookies" },
+      "reset": { "title": "Redefinir Preferências", "description": "Volta às configurações padrão de cookies", "button": "Redefinir Configurações" }
+    },
+    "important": {
+      "title": "Importante Saber",
+      "notes": [
+        "Desabilitar cookies essenciais pode afetar o funcionamento da plataforma Orbizy.",
+        "Cookies analíticos nos ajudam a melhorar nossos serviços, mas são opcionais.",
+        "Suas preferências são respeitadas e podem ser alteradas a qualquer momento.",
+        "Atualizações nesta política serão comunicadas através do banner de cookies."
+      ]
+    },
+    "footer": {
+      "title": "Dúvidas sobre Cookies?",
+      "subtitle": "Nossa equipe está pronta para esclarecer qualquer questão sobre nossa política de cookies",
+      "pref_center_button": "Abrir Central de Preferências",
+      "contact_button": "Entre em Contato"
+    }
+  },
+  "terms": {
+    "usage": {
+      "title": "Termos de Uso",
+      "sections": [
+        { "title": "1. Sobre o que se tratam estes Termos de Uso", "content": "1.1. A IPSEC Tecnologia em Segurança Ltda... [Conteúdo dos Termos]" },
+        { "title": "2. Condições para acessar e usar as soluções da Orbizy", "content": "2.1. Você poderá acessar e visualizar estes Termos..." }
+      ]
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "sections": [
+        { "title": "1. Sobre o que se trata esta Política de Privacidade", "content": "1.1. A IPSEC Tecnologia em Segurança Ltda..." }
+      ]
+    },
+    "last_update": "Última atualização: Janeiro de 2025"
   }
 }

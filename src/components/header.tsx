@@ -1,6 +1,7 @@
 "use client"
 
 import { Menu, Globe } from "lucide-react"
+import { motion } from "motion/react"
 import { useEffect, useState } from "react"
 import { Button } from "./ui/button"
 
@@ -8,9 +9,14 @@ import logo from "@/assets/logo.png"
 import Image from "next/image"
 import Link from "next/link"
 
-export function Header() {
+interface HeaderProps {
+  dict?: any
+  locale?: string
+}
+
+export function Header({ dict, locale }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false)
-  const [currentLocale, setCurrentLocale] = useState<string>('pt')
+  const [currentLocale, setCurrentLocale] = useState<string>(locale || 'pt')
 
   useEffect(() => {
     // Get current locale from cookie if exists
@@ -29,7 +35,7 @@ export function Header() {
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+  }, [locale])
 
   const toggleLanguage = () => {
     const nextLocale = currentLocale === 'pt' ? 'en' : 'pt'
@@ -39,9 +45,12 @@ export function Header() {
   }
 
   return (
-    <header
-      className={`fixed z-10 w-full transition-colors duration-300 ${
-        isScrolled ? "bg-slate-100 shadow-md" : "bg-transparent"
+    <motion.header
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
+      className={`fixed z-10 w-full transition-all duration-300 ${
+        isScrolled ? "bg-white/80 backdrop-blur-md shadow-md py-2" : "bg-transparent py-4"
       }`}
     >
       <div className="max-w-[1120px] mx-auto px-4 py-3 flex items-center justify-between">
@@ -49,7 +58,7 @@ export function Header() {
           <Link href="/">
             <Image
               src={logo}
-              alt="Logo Orbrizy Innovate and Grow"
+              alt="Logo Orbizy Innovate and Grow"
               className="h-14 w-auto hover:scale-110 transition-all"
             />
           </Link>
@@ -83,7 +92,7 @@ export function Header() {
                 : "bg-slate-100 text-foreground"
             } hover:bg-slate-100/90`}
           >
-            {currentLocale === 'pt' ? 'Teste grátis' : 'Free Trial'}
+            {dict?.header?.cta || "Free Trial"}
           </Button>
         </nav>
         <div className="sm:hidden flex items-center gap-2">
@@ -105,6 +114,6 @@ export function Header() {
           </Button>
         </div>
       </div>
-    </header>
+    </motion.header>
   )
 }
