@@ -11,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/cookies',
     '/download',
     '/lgpd',
-    '/segmentos',
     '/status',
     '/termos-de-uso-e-privacidade',
     '/tutoriais',
