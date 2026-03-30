@@ -16,7 +16,7 @@ interface HeroHomeProps {
 
 export function HeroHome({ dict }: HeroHomeProps) {
   return (
-    <div className="relative w-full min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-orange-500 flex items-center justify-center overflow-hidden pt-20 mb-2">
+    <div className="relative w-full min-h-screen bg-linear-to-br from-purple-600 via-purple-500 to-orange-500 flex items-center justify-center overflow-hidden pt-20 mb-2">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
@@ -42,7 +42,7 @@ export function HeroHome({ dict }: HeroHomeProps) {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                 {dict.hero.title_part1}
-                <span className="block bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
+                <span className="block bg-linear-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
                   {dict.hero.title_highlight}
                 </span>
               </h1>

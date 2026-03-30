@@ -270,7 +270,7 @@ export default function StatusPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-blue-600 to-green-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -621,7 +621,7 @@ export default function StatusPage() {
       {/* Subscribe to Updates */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <Card className="p-8 bg-gradient-to-r from-blue-50 to-green-50 border-blue-200">
+          <Card className="p-8 bg-linear-to-r from-blue-50 to-green-50 border-blue-200">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-blue-100 rounded-full">
                 <Bell className="h-8 w-8 text-blue-600" />

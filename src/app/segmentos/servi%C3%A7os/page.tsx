@@ -328,7 +328,7 @@ export default function ServicosPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -564,7 +564,7 @@ export default function ServicosPage() {
             {testimonials.map((testimonial) => (
               <Card key={testimonial.id} className="p-6">
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  <div className="w-12 h-12 bg-linear-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-semibold mr-3">
                     {testimonial.name
                       .split(" ")
                       .map((n) => n[0])
@@ -665,7 +665,7 @@ export default function ServicosPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <section className="py-16 px-4 bg-linear-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">
             Pronto Para Transformar Seu Negócio?

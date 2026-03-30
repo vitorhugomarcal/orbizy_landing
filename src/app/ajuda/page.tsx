@@ -326,7 +326,7 @@ export default function AjudaPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -629,7 +629,7 @@ export default function AjudaPage() {
       {/* Contact Support */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+          <Card className="p-8 bg-linear-to-r from-blue-50 to-purple-50 border-blue-200">
             <div className="text-center">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-blue-100 rounded-full">

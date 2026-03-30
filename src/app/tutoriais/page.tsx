@@ -314,7 +314,7 @@ export default function TutoriaisPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -393,7 +393,7 @@ export default function TutoriaisPage() {
                 className="overflow-hidden hover:shadow-lg transition-shadow group"
               >
                 <div className="relative">
-                  <div className="aspect-video bg-gradient-to-br from-purple-100 to-blue-100 flex items-center justify-center">
+                  <div className="aspect-video bg-linear-to-br from-purple-100 to-blue-100 flex items-center justify-center">
                     <PlayCircle className="h-16 w-16 text-purple-600 group-hover:scale-110 transition-transform" />
                   </div>
                   {tutorial.new && (
@@ -516,7 +516,7 @@ export default function TutoriaisPage() {
                 className="overflow-hidden hover:shadow-lg transition-shadow group"
               >
                 <div className="relative">
-                  <div className="aspect-video bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center">
+                  <div className="aspect-video bg-linear-to-br from-slate-100 to-slate-200 flex items-center justify-center">
                     {getTypeIcon(tutorial.type)}
                   </div>
                   <div className="absolute top-2 right-2 bg-black/70 text-white px-2 py-1 rounded text-xs">
@@ -687,7 +687,7 @@ export default function TutoriaisPage() {
       {/* Support Section */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
-          <Card className="p-8 bg-gradient-to-r from-purple-50 to-blue-50 border-purple-200">
+          <Card className="p-8 bg-linear-to-r from-purple-50 to-blue-50 border-purple-200">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-purple-100 rounded-full">
                 <MessageCircle className="h-8 w-8 text-purple-600" />

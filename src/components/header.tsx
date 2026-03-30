@@ -74,7 +74,7 @@ export function Header() {
             } hover:bg-slate-100/10`}
             asChild
           >
-            <Link href="https://my.orbizy.app">my.Orbizy</Link>
+            <Link href="https://my.orbizy.app" rel="nofollow">my.Orbizy</Link>
           </Button>
           <Button
             className={`${

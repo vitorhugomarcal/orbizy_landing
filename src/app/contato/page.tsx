@@ -191,7 +191,7 @@ export default function ContatoPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -674,7 +674,7 @@ export default function ContatoPage() {
       {/* Success Guarantee */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <Card className="p-8 bg-gradient-to-r from-green-50 to-blue-50 border-green-200">
+          <Card className="p-8 bg-linear-to-r from-green-50 to-blue-50 border-green-200">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-green-100 rounded-full">
                 <CheckCircle className="h-8 w-8 text-green-600" />

@@ -161,7 +161,7 @@ export default function CookiesPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -183,7 +183,7 @@ export default function CookiesPage() {
       {/* What are Cookies */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+          <Card className="p-8 bg-linear-to-r from-blue-50 to-purple-50 border-blue-200">
             <div className="flex items-start space-x-4">
               <div className="p-3 bg-blue-100 rounded-full">
                 <Info className="h-8 w-8 text-blue-600" />
@@ -563,7 +563,7 @@ export default function CookiesPage() {
       {/* Important Notice */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <Card className="p-8 border-yellow-200 bg-gradient-to-r from-yellow-50 to-orange-50">
+          <Card className="p-8 border-yellow-200 bg-linear-to-r from-yellow-50 to-orange-50">
             <div className="flex items-start space-x-4">
               <div className="p-3 bg-yellow-100 rounded-full">
                 <AlertCircle className="h-8 w-8 text-yellow-600" />

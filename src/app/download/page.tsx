@@ -83,7 +83,7 @@ export default function DownloadPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+      <section className="pt-24 pb-12 bg-linear-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Badge
             variant="secondary"
@@ -192,7 +192,7 @@ export default function DownloadPage() {
             {/* Google Play Store */}
             <Card className="p-8 text-center hover:shadow-lg transition-shadow">
               <div className="flex justify-center mb-6">
-                <div className="p-4 bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl">
+                <div className="p-4 bg-linear-to-r from-green-500 to-blue-500 rounded-2xl">
                   <PlayCircle className="h-12 w-12 text-white" />
                 </div>
               </div>
@@ -460,7 +460,7 @@ export default function DownloadPage() {
       {/* Support */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
-          <Card className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+          <Card className="p-8 bg-linear-to-r from-blue-50 to-purple-50 border-blue-200">
             <div className="flex justify-center mb-4">
               <div className="p-3 bg-blue-100 rounded-full">
                 <Smartphone className="h-8 w-8 text-blue-600" />
@@ -473,9 +473,9 @@ export default function DownloadPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="/contato">
+                <Link href={webAppUrl} rel="nofollow">
                   <Download className="w-5 h-5 mr-2" />
-                  Suporte para Instalação
+                  Acessar Versão Web
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
