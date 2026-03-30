@@ -5,7 +5,7 @@ const PUBLIC_FILE = /\.(.*)$/
 const SUPPORTED_LOCALES = ['pt', 'en']
 const DEFAULT_LOCALE = 'pt'
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   // Skip public files and API routes
   if (
     request.nextUrl.pathname.startsWith('/_next') ||
@@ -50,6 +50,8 @@ export function middleware(request: NextRequest) {
 
   return response
 }
+
+export default proxy
 
 export const config = {
   matcher: [
