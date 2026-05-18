@@ -28,22 +28,52 @@
     "value_prop": "Discover the simplicity of a modern app, designed to make your business management intuitive and efficient."
   },
   "stats": [
-    { "number": "5,000+", "label": "Active Companies" },
-    { "number": "98%", "label": "Satisfaction" },
-    { "number": "150K+", "label": "Documents Issued" },
-    { "number": "24/7", "label": "Support" }
+    {
+      "number": "5,000+",
+      "label": "Active Companies"
+    },
+    {
+      "number": "98%",
+      "label": "Satisfaction"
+    },
+    {
+      "number": "150K+",
+      "label": "Documents Issued"
+    },
+    {
+      "number": "24/7",
+      "label": "Support"
+    }
   ],
   "segments": {
     "badge": "Industries Served",
     "title": "Perfect for your type of business",
     "description": "Orbizy serves various segments with personalized solutions for each need",
     "items": [
-      { "name": "Beauty Salons", "count": "1,200+" },
-      { "name": "Technical Assistance", "count": "800+" },
-      { "name": "Consulting", "count": "600+" },
-      { "name": "Retail", "count": "900+" },
-      { "name": "Photography", "count": "400+" },
-      { "name": "Services", "count": "1,100+" }
+      {
+        "name": "Beauty Salons",
+        "count": "1,200+"
+      },
+      {
+        "name": "Technical Assistance",
+        "count": "800+"
+      },
+      {
+        "name": "Consulting",
+        "count": "600+"
+      },
+      {
+        "name": "Retail",
+        "count": "900+"
+      },
+      {
+        "name": "Photography",
+        "count": "400+"
+      },
+      {
+        "name": "Services",
+        "count": "1,100+"
+      }
     ]
   },
   "features": {
@@ -100,9 +130,18 @@
       "Bank reconciliation"
     ],
     "doc_types": [
-      { "title": "Budgets", "description": "Professional templates with digital approval" },
-      { "title": "Contracts", "description": "Validated and customizable legal models" },
-      { "title": "Receipts", "description": "Automatic issuance with fiscal validity" }
+      {
+        "title": "Budgets",
+        "description": "Professional templates with digital approval"
+      },
+      {
+        "title": "Contracts",
+        "description": "Validated and customizable legal models"
+      },
+      {
+        "title": "Receipts",
+        "description": "Automatic issuance with fiscal validity"
+      }
     ]
   },
   "pricing": {
@@ -209,9 +248,18 @@
   "trust": {
     "title": "Security and Reliability",
     "items": [
-      { "title": "Protected Data", "description": "256-bit SSL encryption and automatic cloud backup" },
-      { "title": "Certifications", "description": "LGPD compliance and security certifications" },
-      { "title": "99.9% Uptime", "description": "Guaranteed availability with robust infrastructure" }
+      {
+        "title": "Protected Data",
+        "description": "256-bit SSL encryption and automatic cloud backup"
+      },
+      {
+        "title": "Certifications",
+        "description": "LGPD compliance and security certifications"
+      },
+      {
+        "title": "99.9% Uptime",
+        "description": "Guaranteed availability with robust infrastructure"
+      }
     ]
   },
   "final_cta": {
@@ -256,19 +304,43 @@
     "navigation": {
       "title": "Navigation",
       "links": [
-        { "name": "Features", "href": "#funcionalidades" },
-        { "name": "Plans and Pricing", "href": "#planos" },
-        { "name": "Testimonials", "href": "#depoimentos" },
-        { "name": "FAQ", "href": "#faq" }
+        {
+          "name": "Features",
+          "href": "#funcionalidades"
+        },
+        {
+          "name": "Plans and Pricing",
+          "href": "#planos"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#depoimentos"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        }
       ]
     },
     "support": {
       "title": "Support",
       "links": [
-        { "name": "Help Center", "href": "/ajuda" },
-        { "name": "Tutorials", "href": "/tutoriais" },
-        { "name": "Contact", "href": "/contato" },
-        { "name": "System Status", "href": "/status" }
+        {
+          "name": "Help Center",
+          "href": "/ajuda"
+        },
+        {
+          "name": "Tutorials",
+          "href": "/tutoriais"
+        },
+        {
+          "name": "Contact",
+          "href": "/contato"
+        },
+        {
+          "name": "System Status",
+          "href": "/status"
+        }
       ],
       "hours": "Mon-Fri: 8am to 6pm"
     },
@@ -290,10 +362,22 @@
     "bottom": {
       "rights": "All rights reserved.",
       "legal": [
-        { "name": "Terms of Use", "href": "/terms-of-use-e-privacidade" },
-        { "name": "Privacy Policy", "href": "/terms-of-use-e-privacidade" },
-        { "name": "LGPD", "href": "/lgpd" },
-        { "name": "Cookies", "href": "/cookies" }
+        {
+          "name": "Terms of Use",
+          "href": "/termos-de-uso-e-privacidade"
+        },
+        {
+          "name": "Privacy Policy",
+          "href": "/termos-de-uso-e-privacidade"
+        },
+        {
+          "name": "LGPD",
+          "href": "/lgpd"
+        },
+        {
+          "name": "Cookies",
+          "href": "/cookies"
+        }
       ],
       "developed": "Developed with ❤️ in Brazil"
     },
@@ -319,10 +403,22 @@
       "title": "Everything in the Palm of Your Hand",
       "subtitle": "The Orbizy app has all the essential features",
       "items": [
-        { "title": "Schedules", "description": "Manage your schedule anywhere" },
-        { "title": "Clients", "description": "Full access to client base" },
-        { "title": "Quotes", "description": "Create and send quotes instantly" },
-        { "title": "Reports", "description": "Track your performance" }
+        {
+          "title": "Schedules",
+          "description": "Manage your schedule anywhere"
+        },
+        {
+          "title": "Clients",
+          "description": "Full access to client base"
+        },
+        {
+          "title": "Quotes",
+          "description": "Create and send quotes instantly"
+        },
+        {
+          "title": "Reports",
+          "description": "Track your performance"
+        }
       ]
     },
     "benefits": {
@@ -352,10 +448,22 @@
       "placeholder": "Type your question here..."
     },
     "quick_actions": [
-      { "title": "Talk to Support", "description": "Get in touch with our team" },
-      { "title": "Watch Tutorials", "description": "Learn with videos and guides" },
-      { "title": "System Status", "description": "Check if there are technical issues" },
-      { "title": "Community", "description": "Connect with other users" }
+      {
+        "title": "Talk to Support",
+        "description": "Get in touch with our team"
+      },
+      {
+        "title": "Watch Tutorials",
+        "description": "Learn with videos and guides"
+      },
+      {
+        "title": "System Status",
+        "description": "Check if there are technical issues"
+      },
+      {
+        "title": "Community",
+        "description": "Connect with other users"
+      }
     ],
     "faq": {
       "title": "Frequently Asked Questions",
@@ -416,9 +524,21 @@
       "title": "Learning Paths",
       "subtitle": "Organized sequences of tutorials to master Orbizy",
       "items": [
-        { "title": "Complete Beginner", "subtitle": "6 tutorials • 1h 30min", "description": "From zero to the first quote sent. Perfect for those starting out." },
-        { "title": "Business Growth", "subtitle": "8 tutorials • 2h 15min", "description": "Strategies to scale your business using advanced Orbizy features." },
-        { "title": "Orbizy Expert", "subtitle": "12 tutorials • 3h 45min", "description": "Master all features and become an expert on the platform." }
+        {
+          "title": "Complete Beginner",
+          "subtitle": "6 tutorials • 1h 30min",
+          "description": "From zero to the first quote sent. Perfect for those starting out."
+        },
+        {
+          "title": "Business Growth",
+          "subtitle": "8 tutorials • 2h 15min",
+          "description": "Strategies to scale your business using advanced Orbizy features."
+        },
+        {
+          "title": "Orbizy Expert",
+          "subtitle": "12 tutorials • 3h 45min",
+          "description": "Master all features and become an expert on the platform."
+        }
       ],
       "button": "Start Path"
     },
@@ -427,7 +547,11 @@
       "subtitle": "Our team is ready to help you make the most of Orbizy",
       "training_button": "Schedule Training",
       "support_button": "Talk to Support",
-      "benefits": ["Free training", "Expert support", "Exclusive materials"]
+      "benefits": [
+        "Free training",
+        "Expert support",
+        "Exclusive materials"
+      ]
     },
     "newsletter": {
       "title": "New Tutorials Every Week",
@@ -447,10 +571,26 @@
       "title": "Support Channels",
       "subtitle": "Choose the best way to get in touch with us",
       "items": [
-        { "title": "General Email", "description": "For general questions and info", "response": "Up to 24 hours" },
-        { "title": "Technical Support", "description": "Technical issues and bugs", "response": "Up to 4 hours" },
-        { "title": "Sales", "description": "Plans, pricing and demos", "response": "Up to 2 hours" },
-        { "title": "Partnerships", "description": "Business opportunities", "response": "Up to 48 hours" }
+        {
+          "title": "General Email",
+          "description": "For general questions and info",
+          "response": "Up to 24 hours"
+        },
+        {
+          "title": "Technical Support",
+          "description": "Technical issues and bugs",
+          "response": "Up to 4 hours"
+        },
+        {
+          "title": "Sales",
+          "description": "Plans, pricing and demos",
+          "response": "Up to 2 hours"
+        },
+        {
+          "title": "Partnerships",
+          "description": "Business opportunities",
+          "response": "Up to 48 hours"
+        }
       ]
     },
     "form": {
@@ -500,10 +640,30 @@
       "title": "Other Support Channels",
       "subtitle": "Multiple ways to get help when you need it",
       "items": [
-        { "title": "Live Chat", "description": "Instant support during business hours", "availability": "Mon-Fri: 8am to 6pm", "action": "Start Chat" },
-        { "title": "Phone", "description": "Phone support for premium clients", "availability": "+1 (555) 000-0000", "action": "Call Now" },
-        { "title": "Help Center", "description": "Articles, tutorials and FAQs", "availability": "Available 24/7", "action": "Access Center" },
-        { "title": "System Status", "description": "Track the status of our services", "availability": "Real-time monitoring", "action": "Check Status" }
+        {
+          "title": "Live Chat",
+          "description": "Instant support during business hours",
+          "availability": "Mon-Fri: 8am to 6pm",
+          "action": "Start Chat"
+        },
+        {
+          "title": "Phone",
+          "description": "Phone support for premium clients",
+          "availability": "+1 (555) 000-0000",
+          "action": "Call Now"
+        },
+        {
+          "title": "Help Center",
+          "description": "Articles, tutorials and FAQs",
+          "availability": "Available 24/7",
+          "action": "Access Center"
+        },
+        {
+          "title": "System Status",
+          "description": "Track the status of our services",
+          "availability": "Real-time monitoring",
+          "action": "Check Status"
+        }
       ]
     },
     "info": {
@@ -517,7 +677,11 @@
     "guarantee": {
       "title": "Response Guarantee",
       "subtitle": "We commit to responding to all requests within established timeframes. Your satisfaction is our priority!",
-      "benefits": ["Guaranteed response", "Expert support", "Humanized service"]
+      "benefits": [
+        "Guaranteed response",
+        "Expert support",
+        "Humanized service"
+      ]
     }
   },
   "status": {
@@ -549,14 +713,38 @@
       "title": "Service Status",
       "subtitle": "Detailed monitoring of each platform component",
       "items": [
-        { "name": "Web Application", "description": "Main Orbizy platform interface" },
-        { "name": "Mobile App", "description": "iOS and Android apps" },
-        { "name": "Main API", "description": "Backend and integration services" },
-        { "name": "Database", "description": "Data storage and processing" },
-        { "name": "Auth System", "description": "Login and user security" },
-        { "name": "Payment System", "description": "Transaction processing" },
-        { "name": "Notifications", "description": "Emails, SMS and push notifications" },
-        { "name": "CDN and Assets", "description": "Global content distribution" }
+        {
+          "name": "Web Application",
+          "description": "Main Orbizy platform interface"
+        },
+        {
+          "name": "Mobile App",
+          "description": "iOS and Android apps"
+        },
+        {
+          "name": "Main API",
+          "description": "Backend and integration services"
+        },
+        {
+          "name": "Database",
+          "description": "Data storage and processing"
+        },
+        {
+          "name": "Auth System",
+          "description": "Login and user security"
+        },
+        {
+          "name": "Payment System",
+          "description": "Transaction processing"
+        },
+        {
+          "name": "Notifications",
+          "description": "Emails, SMS and push notifications"
+        },
+        {
+          "name": "CDN and Assets",
+          "description": "Global content distribution"
+        }
       ],
       "uptime": "Uptime",
       "response_time": "Response Time",
@@ -591,10 +779,22 @@
       "title": "Performance Metrics",
       "subtitle": "Historical data for the last 30 days",
       "items": [
-        { "title": "Overall Uptime", "subtitle": "Last 30 days" },
-        { "title": "Response Time", "subtitle": "Global average" },
-        { "title": "Throughput", "subtitle": "Requests/day" },
-        { "title": "Incidents", "subtitle": "This month" }
+        {
+          "title": "Overall Uptime",
+          "subtitle": "Last 30 days"
+        },
+        {
+          "title": "Response Time",
+          "subtitle": "Global average"
+        },
+        {
+          "title": "Throughput",
+          "subtitle": "Requests/day"
+        },
+        {
+          "title": "Incidents",
+          "subtitle": "This month"
+        }
       ]
     },
     "notification": {
@@ -627,29 +827,66 @@
       "title": "Data We Collect",
       "subtitle": "We only collect the data necessary to provide our services with excellence",
       "items": [
-        { "title": "Identification Data", "description": "Name, email, phone, Tax ID", "purpose": "Account creation and management" },
-        { "title": "Usage Data", "description": "Information on how you use the platform", "purpose": "Service improvement and support" },
-        { "title": "Business Data", "description": "Company info, clients, products", "purpose": "Platform core functionality" },
-        { "title": "Technical Data", "description": "IP, browser, device type", "purpose": "Security and technical optimization" }
+        {
+          "title": "Identification Data",
+          "description": "Name, email, phone, Tax ID",
+          "purpose": "Account creation and management"
+        },
+        {
+          "title": "Usage Data",
+          "description": "Information on how you use the platform",
+          "purpose": "Service improvement and support"
+        },
+        {
+          "title": "Business Data",
+          "description": "Company info, clients, products",
+          "purpose": "Platform core functionality"
+        },
+        {
+          "title": "Technical Data",
+          "description": "IP, browser, device type",
+          "purpose": "Security and technical optimization"
+        }
       ],
       "purpose_badge": "Purpose: {purpose}"
     },
     "legal_basis": {
       "title": "Legal Basis for Processing",
       "items": [
-        { "title": "Contract Execution", "description": "We process your data to fulfill the service contract of the Orbizy platform, including account creation, payment processing and technical support." },
-        { "title": "Consent", "description": "For marketing communications, newsletter and optional features, we request your express consent, which can be withdrawn at any time." },
-        { "title": "Legitimate Interest", "description": "For platform improvements, fraud prevention and data security, we base processing on our legitimate interest, always respecting your rights." }
+        {
+          "title": "Contract Execution",
+          "description": "We process your data to fulfill the service contract of the Orbizy platform, including account creation, payment processing and technical support."
+        },
+        {
+          "title": "Consent",
+          "description": "For marketing communications, newsletter and optional features, we request your express consent, which can be withdrawn at any time."
+        },
+        {
+          "title": "Legitimate Interest",
+          "description": "For platform improvements, fraud prevention and data security, we base processing on our legitimate interest, always respecting your rights."
+        }
       ]
     },
     "rights": {
       "title": "Your Rights as Data Subject",
       "subtitle": "Privacy laws guarantee several rights over your personal data. See how to exercise them at Orbizy",
       "items": [
-        { "title": "Access", "description": "Request information about your personal data" },
-        { "title": "Correction", "description": "Correct incomplete or incorrect data" },
-        { "title": "Deletion", "description": "Request the removal of personal data" },
-        { "title": "Portability", "description": "Receive your data in a structured format" }
+        {
+          "title": "Access",
+          "description": "Request information about your personal data"
+        },
+        {
+          "title": "Correction",
+          "description": "Correct incomplete or incorrect data"
+        },
+        {
+          "title": "Deletion",
+          "description": "Request the removal of personal data"
+        },
+        {
+          "title": "Portability",
+          "description": "Receive your data in a structured format"
+        }
       ],
       "button": "Exercise My Rights",
       "hint": "Contact us to exercise any of your rights"
@@ -671,9 +908,21 @@
     "retention": {
       "title": "Data Retention",
       "items": [
-        { "title": "Account Data", "description": "Maintained while account is active", "period": "Active + 5 years" },
-        { "title": "Usage Data", "description": "Logs and metrics for service improvement", "period": "24 months" },
-        { "title": "Fiscal Data", "description": "Documents for legal compliance", "period": "5 years" }
+        {
+          "title": "Account Data",
+          "description": "Maintained while account is active",
+          "period": "Active + 5 years"
+        },
+        {
+          "title": "Usage Data",
+          "description": "Logs and metrics for service improvement",
+          "period": "24 months"
+        },
+        {
+          "title": "Fiscal Data",
+          "description": "Documents for legal compliance",
+          "period": "5 years"
+        }
       ]
     },
     "incident": {
@@ -707,16 +956,54 @@
     "what_are": {
       "title": "What are Cookies?",
       "description": "Cookies are small text files stored on your device when you visit a website. They help us remember your preferences, improve your experience and provide personalized features on the Orbizy platform.",
-      "benefits": ["Improve experience", "Remember preferences", "Ensure security"]
+      "benefits": [
+        "Improve experience",
+        "Remember preferences",
+        "Ensure security"
+      ]
     },
     "types": {
       "title": "Types of Cookies We Use",
       "subtitle": "We classify our cookies into different categories for greater transparency",
       "items": [
-        { "title": "Essential Cookies", "description": "Necessary for basic platform functionality", "examples": ["User authentication", "Session security", "Language preferences"], "badge_required": "Required", "badge_optional": "Optional" },
-        { "title": "Analytic Cookies", "description": "Help us understand how you use our platform", "examples": ["Google Analytics", "Usage metrics", "Performance reports"] },
-        { "title": "Marketing Cookies", "description": "Used to personalize ads and content", "examples": ["Facebook Pixel", "Google Ads", "Remarketing"] },
-        { "title": "Preference Cookies", "description": "Remember your settings and preferences", "examples": ["Dark/light theme", "Preferred layout", "Saved settings"] }
+        {
+          "title": "Essential Cookies",
+          "description": "Necessary for basic platform functionality",
+          "examples": [
+            "User authentication",
+            "Session security",
+            "Language preferences"
+          ],
+          "badge_required": "Required",
+          "badge_optional": "Optional"
+        },
+        {
+          "title": "Analytic Cookies",
+          "description": "Help us understand how you use our platform",
+          "examples": [
+            "Google Analytics",
+            "Usage metrics",
+            "Performance reports"
+          ]
+        },
+        {
+          "title": "Marketing Cookies",
+          "description": "Used to personalize ads and content",
+          "examples": [
+            "Facebook Pixel",
+            "Google Ads",
+            "Remarketing"
+          ]
+        },
+        {
+          "title": "Preference Cookies",
+          "description": "Remember your settings and preferences",
+          "examples": [
+            "Dark/light theme",
+            "Preferred layout",
+            "Saved settings"
+          ]
+        }
       ],
       "examples_title": "Examples:"
     },
@@ -754,8 +1041,16 @@
     },
     "tools": {
       "title": "Management Tools",
-      "clear": { "title": "Clear Cookies", "description": "Removes all cookies stored by the Orbizy site", "button": "Clear All Cookies" },
-      "reset": { "title": "Reset Preferences", "description": "Resets to default cookie settings", "button": "Reset Settings" }
+      "clear": {
+        "title": "Clear Cookies",
+        "description": "Removes all cookies stored by the Orbizy site",
+        "button": "Clear All Cookies"
+      },
+      "reset": {
+        "title": "Reset Preferences",
+        "description": "Resets to default cookie settings",
+        "button": "Reset Settings"
+      }
     },
     "important": {
       "title": "Important to Know",
@@ -777,14 +1072,23 @@
     "usage": {
       "title": "Terms of Use",
       "sections": [
-        { "title": "1. What these Terms of Use are about", "content": "1.1. IPSEC Tecnologia em Segurança Ltda... [Terms Content]" },
-        { "title": "2. Conditions for accessing and using Orbizy solutions", "content": "2.1. You can access and view these Terms..." }
+        {
+          "title": "1. What these Terms of Use are about",
+          "content": "1.1. IPSEC Tecnologia em Segurança Ltda... [Terms Content]"
+        },
+        {
+          "title": "2. Conditions for accessing and using Orbizy solutions",
+          "content": "2.1. You can access and view these Terms..."
+        }
       ]
     },
     "privacy": {
       "title": "Privacy Policy",
       "sections": [
-        { "title": "1. What this Privacy Policy is about", "content": "1.1. IPSEC Tecnologia em Segurança Ltda..." }
+        {
+          "title": "1. What this Privacy Policy is about",
+          "content": "1.1. IPSEC Tecnologia em Segurança Ltda..."
+        }
       ]
     },
     "last_update": "Last updated: January 2025"
